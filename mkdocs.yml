@@ -2,6 +2,7 @@ site_name: Chenxing Luo
 theme:
   name: null
   custom_dir: blanc
+copyright: 2022, Chenxing
 markdown_extensions: 
   - mdx_math:
       enable_dollar_delimiter: True #for use of inline $..$
@@ -9,3 +10,5 @@ markdown_extensions:
       nested_indent: 2
       truly_sane: true
   - mdx_urlize
+  - markdown_captions
+  - attr_list

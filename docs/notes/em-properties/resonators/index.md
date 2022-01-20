@@ -22,8 +22,6 @@ $$ \chi_{n}(\omega) = \frac{\tilde x_0(\omega_0)}{\tilde x_0(\omega)}=\frac{\ome
 
 ![Real ($\chi'$) and imaginary ($\chi''$) part of susceptibility ($\chi$), as a function of $\omega / \omega_0$, where $\chi = \chi' + i\chi''$. via Bailey's course note](Untitled.jpeg)
 
-Real ($\chi'$) and imaginary ($\chi''$) part of susceptibility ($\chi$), as a function of $\omega / \omega_0$, where $\chi = \chi' + i\chi''$. via Bailey's course note
-
 - Imaginary part ($\chi''$)
   - Symmetric, gaussian function
   - FWHM
