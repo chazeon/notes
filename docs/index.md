@@ -19,9 +19,9 @@ title: Welcome!
 
 ## Bio
 
-I am currently a PhD student (2019–) at the Applied Physics & Applied Mathematics Department in Columbia University. I work as a graduate research assistant with [Professor Renata Wentzcovitch](https://www.apam.columbia.edu/faculty/renata-wentzcovitch).
+I am currently a PhD student (2019–) at the [Applied Physics & Applied Mathematics Department](https://www.apam.columbia.edu/) in [Columbia University](https://www.columbia.edu/). I work as a graduate research assistant with [Professor Renata Wentzcovitch](https://www.apam.columbia.edu/faculty/renata-wentzcovitch).
 
-I got my bachelor degree from Nanjing University (2013–2017), and master degree from Columbia University (2017–2018).
+I got my bachelor degree from [Nanjing University](http://www.nju.edu.cn/) (2013–2017), and master degree from Columbia University (2017–2018).
 
 ## Research Focus
 
