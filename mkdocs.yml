@@ -2,3 +2,9 @@ site_name: Chenxing Luo
 theme:
   name: null
   custom_dir: blanc
+markdown_extensions: 
+  - mdx_math:
+      enable_dollar_delimiter: True #for use of inline $..$
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+      truly_sane: true
