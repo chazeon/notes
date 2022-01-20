@@ -2,5 +2,6 @@
 title: Mineral physics & geophysics
 ---
 
-- [Anisotropy](anisotropy)
 - [Finite strain equation of states](finite-strain-eos)
+- [Stress, strain, and energy in continuum physics](continuum-physics)
+- [Anisotropy](anisotropy)
