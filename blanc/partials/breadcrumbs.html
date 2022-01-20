@@ -1,0 +1,32 @@
+<style>
+  .wy-breadcrumbs {
+    font-size: 0.75em;
+    display: inline;
+  }
+
+  .wy-breadcrumbs > li {
+    display: inline;
+    margin: 0 1px;
+  }
+
+  #breadcrumbs > hr {
+    border: none;
+    border-bottom: 1px solid #aaa;
+  }
+</style>
+<div role="navigation" aria-label="breadcrumbs navigation" id="breadcrumbs">
+    <ul class="wy-breadcrumbs">
+      <li><a href="{{ nav.homepage.url|url }}" class="icon icon-home" alt="{% trans %}Home{% endtrans %}">Home</a> / </li>
+      {%- if page %}
+        {%- for doc in (page.ancestors[::-1] if not page.is_index else page.ancestors[:-(page.ancestors|length):-1])%}
+          {%- if doc.link %}
+          <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> /</li>
+          {%- else %}
+            <li><a href="{{ (['..'] * loop.revindex) | join('/') }}">{{ doc.title }}</a> / </li>
+          {%- endif %}
+        {%- endfor %}
+      {%- endif %}
+      {%- if page %}<li>{{ page.title }}</li>{%- endif %}
+    </ul>
+    <hr/>
+  </div>
