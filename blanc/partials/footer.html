@@ -1,4 +1,6 @@
 <div class="footer">
+  {%- if config.copyright %}
   <hr>
-  &copy; 2022, Chenxing
+  &copy; {{ config.copyright }}
+  {%- endif %}
 </div>
