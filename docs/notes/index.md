@@ -3,4 +3,4 @@ title: Notes
 list_children: true
 ---
 
-These notes derived from my own notes originally hosted on Notion.
+The notes hosted here are mostly derived from my own notes on [Notion](https://notion.so).
