@@ -1,32 +1,30 @@
 <style>
-  .wy-breadcrumbs {
+  #breadcrumbs {
     font-size: 0.75em;
     display: inline;
+    color: #444
   }
 
-  .wy-breadcrumbs > li {
-    display: inline;
+  #breadcrumbs span {
     margin: 0 1px;
   }
 
-  #breadcrumbs > hr {
-    border: none;
-    border-bottom: 1px solid #aaa;
+  #breadcrumbs span > a,
+  #breadcrumbs span > a:hover,
+  #breadcrumbs span > a:visited {
+    border-bottom: none;
   }
 </style>
 <div role="navigation" aria-label="breadcrumbs navigation" id="breadcrumbs">
-    <ul class="wy-breadcrumbs">
-      <li><a href="{{ nav.homepage.url|url }}" class="icon icon-home" alt="{% trans %}Home{% endtrans %}">Home</a> / </li>
+      <span><a href="{{ nav.homepage.url|url }}" class="icon icon-home" alt="{% trans %}Home{% endtrans %}">Home</a> / </span>
       {%- if page %}
-        {%- for doc in (page.ancestors[::-1] if not page.is_index else page.ancestors[:-(page.ancestors|length):-1])%}
-          {%- if doc.link %}
-          <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> /</li>
+        {%- for _page in (page.ancestors[::-1] if not page.is_index else page.ancestors[1:][::-1])%}
+          {%- if _page.link %}
+          <span><a href="{{ _page.link | e }}">{{ _page.title }}</a> /</span>
           {%- else %}
-            <li><a href="{{ (['..'] * loop.revindex) | join('/') }}">{{ doc.title }}</a> / </li>
+          <span><a href="{{ _page.children[0].url | url }}">{{ _page.children[0].title }}</a> / </span>
           {%- endif %}
         {%- endfor %}
       {%- endif %}
-      {%- if page %}<li>{{ page.title }}</li>{%- endif %}
-    </ul>
-    <hr/>
+      {%- if page %}<span>{{ page.title }}</span>{%- endif %}
   </div>

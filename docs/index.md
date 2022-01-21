@@ -12,7 +12,7 @@ title: Welcome!
         | <a href="https://scholar.google.com/citations?user=iMefCXUAAAAJ">Google Scholar</a>
         | <a href="https://www.linkedin.com/in/chenxing-luo/">LinkedIn</a>
         | <a href="http://www.mineralscloud.com/people">Group</a>
-        | <a href="notes/index.html">Notes</a>
+        | <a href="notes/">Notes</a>
         ]</div>
 </div>
 <div class="clearfix"></div>

@@ -1,0 +1,10 @@
+<ul>
+{%- for _page in page.ancestors[0].children[1:] %}
+  {%- if _page.is_section %}
+  <li><a href="{{_page.children[0].url | url}}">{{_page.children[0].title}}</a></li>
+  {%- else %}
+  <li><a href="{{_page.url | url}}">{{_page.title}}</a></li>
+  {% endif %}
+{%- endfor %}
+</ul>
+  

@@ -1,5 +1,5 @@
 ---
 title: Thermodynamics
+list_children: true
 ---
 
-- [Thermodynamic functions](thermodynamic-functions)

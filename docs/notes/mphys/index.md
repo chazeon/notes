@@ -1,8 +1,4 @@
 ---
 title: Mineral physics & geophysics
+list_children: true
 ---
-
-- [Finite strain equation of states](finite-strain-eos)
-- [Stress, strain, and energy in continuum physics](continuum-physics)
-- [Anisotropy](anisotropy)
-- [Pyrolite, peridotite and basalt](peridotite)
