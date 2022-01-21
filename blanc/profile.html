@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ 'res/style.profile.css' | url}}?t={% now 'utc', '%s' %}" />
+<link rel="stylesheet" href="{{ 'res/style.profile.css' | url}}?t={% now 'utc', '%Y%m%d%H%M%S' %}" />
 {% endblock %}
 
 {% block main %}
