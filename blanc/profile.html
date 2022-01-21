@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head %}
+<link rel="stylesheet" href="{{ 'res/style.profile.css' | url}}?t={% now 'utc', '%s' %}" />
+{% endblock %}
+
 {% block main %}
 <div id="content" class="container">
 {{ page.content }}

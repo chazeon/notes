@@ -1,0 +1,41 @@
+{% extends "main.html" %}
+{% block head %}
+{% include "partials/katex.html" %}
+<style>
+body > #content h2 {
+  margin-top: 1em;
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+  /* border-top: 2px solid #000; */
+  padding: 4px 0;
+  border-bottom: 1.5px solid #000;
+}
+</style>
+{% endblock %}
+
+{% block main %}
+
+{{ super() }}
+
+<ul>
+{%- for _page in page.ancestors[0].children[1:] recursive %}
+  {% if _page == page %}
+  {% continue %}
+  {% endif %}
+  {%- if _page.is_section %}
+  <li>
+    <a href="{{_page.children[0].url | url}}">{{_page.children[0].title}}</a>
+    {%- if _page.children|length > 1 %}
+    <ul>
+    {{ loop(_page.children[1:]) }}
+    </ul>
+    {% endif %}
+  </li>
+  {%- else %}
+  <li><a href="{{_page.url | url}}">{{_page.title}}</a></li>
+  {%- endif %}
+{%- endfor %}
+</ul>
+
+{% endblock %}

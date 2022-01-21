@@ -4,11 +4,22 @@ theme:
   custom_dir: blanc
 copyright: 2022, Chenxing
 markdown_extensions: 
-  - mdx_math:
-      enable_dollar_delimiter: True #for use of inline $..$
+  - pymdownx.arithmatex:
+      preview: false
+  - pymdownx.magiclink
+  - pymdownx.snippets
   - mdx_truly_sane_lists:
       nested_indent: 2
       truly_sane: true
-  - mdx_urlize
   - markdown_captions
   - attr_list
+
+plugins:
+  - search
+  - compile_sass
+  - jinja2_load_extensions:
+      extensions:
+        - jinja2_time.TimeExtension
+        - jinja2.ext.loopcontrols
+  - minify:
+      minify_html: true

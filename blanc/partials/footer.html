@@ -1,6 +1,11 @@
-<div class="footer">
   {%- if config.copyright %}
+  <footer class="container">
   <hr>
-  &copy; {{ config.copyright }}
+  <div class="copyright">&copy; {{ config.copyright }}</div>
+  <div class="links">
+    <a href="{{ 'notes' | url}}">notes</a> <br>
+    <a href="{{ 'quotes' | url}}">quotes</a> <br>
+    <a href="{{ 'about' | url }}">about</a>
+  </div>
+  </footer>
   {%- endif %}
-</div>

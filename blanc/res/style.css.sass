@@ -1,0 +1,107 @@
+$text-color: #333
+$caption-color: #888
+$rule-color: #aaa
+
+body
+    font-family: 'PT Sans', sans-serif
+    color: $text-color
+
+a
+    text-decoration: none
+
+a, a:hover, a:visited
+    border-bottom: 1px dotted #888
+    margin: 0 1px
+
+a, a:visited
+    color: #555
+
+a:hover
+    color: #333
+
+hr
+    border: none
+    border-bottom: .5px solid #aaa
+
+code, pre
+    font-family: 'Consolas', monospace
+
+
+body > .container
+    max-width: 36em
+
+body > #content
+    padding: 20px 10px
+    line-height: 1.35em
+
+    p 
+        margin-bottom: .5rem
+
+    h3::after
+        margin-left: .5em
+        content: "· · ·"
+    
+    h1
+        line-height: 1em
+
+    h2
+        font-size: 1.1rem
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: .05em
+    h3
+        font-size: 1.0rem
+        font-weight: 700
+
+    img
+        max-width: 100%
+    
+    .katex
+        font-size: 100%
+    
+    figcaption
+        color: $caption-color
+        font-size: .8em
+
+h1.title
+    display: block
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    line-height: 1em;
+    font-size: 2.5em;
+    
+footer
+    color: $caption-color
+    margin-top: 1.5em
+    padding-top: .5em
+    padding-bottom: 2em
+    text-align: right
+
+    *
+        font-size: .75rem
+
+    hr
+        width: 3em
+        border: none
+        border-bottom: .5px solid #aaa
+        margin-right: 0
+        margin-bottom: .75em
+
+    a, a:visited
+        color: #888
+        border-bottom: none
+        text-decoration: underline .5px #ddd
+
+    a:hover
+        color: #666
+        border-bottom: none
+        text-decoration: underline .5px #ddd
+
+    .links
+        margin-block-start: .25em
+        font-size: .9em
+        line-height: .9em
+    
+
