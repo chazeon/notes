@@ -2,7 +2,7 @@
 title: Lattice specific heat
 ---
 
-# Specific heat for classical harmonic oscillator and Dulong–Petit law
+## Specific heat for classical harmonic oscillator and Dulong–Petit law
 
 For classical 1D harmonic oscillator, according to [Equipartition theorem](https://www.notion.so/Equipartition-theorem-82bb06525ef84a7c94a2e048af424f25), the partition function $Z$ is given by
 
@@ -12,9 +12,9 @@ Energy $E$ can be obtained from $Z$, by $E = -\partial Z / \partial \beta = k_\m
 
 Also, monoatomic gas: $3/2R$
 
-# Debye model
+## Debye model
 
-## Basic assumptions in the Debye model
+### Basic assumptions in the Debye model
 
 Basically we assume linear dependence in $\omega$ vs. $k$ for acoustic modes $\omega = kv_m$ (which is true for acoustic modes near $\Gamma$ point), then the energy of mode $E = \hbar \omega = \hbar v_m k$.
 
@@ -28,7 +28,7 @@ $$ Q(k_\mathrm{D}) = D_{k_\mathrm{D}^3} \frac{1}{8} \frac{4}{3}\pi k_\mathrm{D}^
 
 This give rise to the intergration $E = \int_0^{k\theta_\mathrm{D}} g(\epsilon)\,\epsilon\,\mathrm{d}\epsilon$.
 
-## High-$T$ and low-$T$ limits
+### High-$T$ and low-$T$ limits
 
 - Replace all phonon modes with three branches $\omega = ck$
 - At low-T ($T \ll \theta_D$), $c_V \propto T^3$
@@ -37,11 +37,11 @@ This give rise to the intergration $E = \int_0^{k\theta_\mathrm{D}} g(\epsilon)\
 
 ![An example of Debye model. (via Bailey course note)](p1.png)
 
-# Einstein model
+## Einstein model
 
 - Assume that $\omega \propto k$ for acoustic mode, $\omega = \omega_\text{E}$ (constant) for optical mode
 
-## Limits
+### Limits
 
 - At low-T ($T \ll \theta_E$), $c_V \propto T^{-2}\exp(1/T)$
 - At high-T ($T \gg \theta_E$), $c_V = 3Nk_\text{B}$ (Dulong–Petit law)
@@ -54,7 +54,7 @@ Comparison between Einstein and Debye lattice specific heat. (via Bailey course 
 
 The approximation in phonon modes adopted by (a) Debye model (b) Einstein model to calculate lattice specific heat. (via Ashcroft & Mermin)
 
-## Assumption and derivation of Einstein solid from microcanonical (*NVE*) ensemble
+### Assumption and derivation of Einstein solid from microcanonical (*NVE*) ensemble
 
 For a solid with $N$ atoms, assume $q$ quanta, total $3N$ simple oscillator, with state $\hbar\omega$ each.
 
@@ -74,7 +74,7 @@ The final result for specific heat is
 
 $$ C_{V}=3 N k\left(\frac{\varepsilon}{k T}\right)^{2} \frac{e^{\varepsilon / k T}}{\left(e^{\varepsilon / k T}-1\right)^{2}} $$
 
-# Electronic specific heat
+## Electronic specific heat
 
 Electronic specific heat is about $10^{-2}$ compared to classic specific heat ($\frac{2}{3}k_\text{B}$) at room temperature (according to Wikipedia).
 
@@ -84,7 +84,7 @@ Under Drude model, the electronic specific heat $c_V \propto T$.
 
 See also [Drude model for conductivity](https://www.notion.so/Drude-model-for-conductivity-a9ada9f3a78e48458403d25dff563ced), [Free electron-gas (electron-in-a-box) model](https://www.notion.so/Free-electron-gas-electron-in-a-box-model-65e4c0d3ebf04b8dbeb8cfa8758acf14)
 
-## Comparing electronic and lattice specific heat
+### Comparing electronic and lattice specific heat
 
 Clearly, $T_\text{f} \gg T_\text{D}$. But electronic is $\propto T$, lattice $\propto T^3$. At room temperature, lattice specific heat is usually more obvious than electronic specific heat, but low-temperature specific heat is dominated by electronic contribution in metals.
 
