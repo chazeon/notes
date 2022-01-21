@@ -12,11 +12,11 @@ The brucite–lizardite–talc line: $\ce{x MgO * y SiO2 * Mg(OH)2}$
 
 Serpentine formula $\ce{M_{3m-3}T_{2m}O_{5m}(OH)*{4m-6}}$ / $\ce{Mg*{3m-3}Si_{2m}O_{5m}(OH)_{4m-6}}$
 
-The periodicity $m$ is related to cell size and is also an “indicator“ for the depletion of $\ce{Mg(OH)2}$ against lizardite.
+The periodicity $m$ is related to cell size and is also an “indicator” for the depletion of $\ce{Mg(OH)2}$ against lizardite.
 
-Antigorite is not a serpentine polymorph *strictu sensu*, because of the discrete $\ce{Mg(OH)2}$ depletion (Capitani & Mellini, 2004)
+>  Antigorite is not a serpentine polymorph *strictu sensu*, because of the discrete $\ce{Mg(OH)2}$ depletion (Capitani & Mellini, 2004)
 
-The $m$ values of antigorite commonly range from 23 to 14 in natural metamorphic serpentinites. (Shen et al., 2020)
+> The $m$ values of antigorite commonly range from 23 to 14 in natural metamorphic serpentinites. (Shen et al., 2020)
 
 When $m \to \infty$ (no depletion), we get lizardite $\ce{Mg3Si2O5(OH)4}$.
 
@@ -26,9 +26,9 @@ $$ \ce{$\underset{\text{lizardite}}{\ce{m Mg3Si2O5(OH)4}}$ -> $\underset{\text{a
 
 ### $m$ valve vs. $PT$
 
-Low $m$ values are more stable at high temperature (Kunze 1961; Trommsdorff 1983; Mellini et al. 1987; Uehara and Kamata 1994). (Shen et al., 2020)
+> Low $m$ values are more stable at high temperature (Kunze 1961; Trommsdorff 1983; Mellini et al. 1987; Uehara and Kamata 1994). (Shen et al., 2020)
 
-Wunder et al. (2001) performed an experimental study at 350–710 °C, 2–50 kbar in the simple MSH system and found that the a-axis (related to the $m$ value) is roughly negatively correlated with temperature but positively correlated with pressure. (Shen et al., 2020)
+> Wunder et al. (2001) performed an experimental study at 350–710 °C, 2–50 kbar in the simple MSH system and found that the a-axis (related to the $m$ value) is roughly negatively correlated with temperature but positively correlated with pressure. (Shen et al., 2020)
 
 ### **Number of atoms** = $18m - 15$
 
