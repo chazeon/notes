@@ -31,7 +31,7 @@ class CompileSASSPlugin(plugins.BasePlugin):
             css_path.parent.mkdir(parents=True, exist_ok=True)
 
             logger.info(f"Compiling SCSS <{src_path}> -> <{css_path}>")
-            with open(css_path, "w") as fp:
+            with open(css_path, "w", encoding="utf8") as fp:
                 fp.write(sass.compile(filename=file.abs_src_path))
             
             file.name = str(Path(file.name).stem)
