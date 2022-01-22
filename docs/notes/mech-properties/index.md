@@ -1,5 +1,5 @@
 ---
-title: Mechanical Properties properties of solid
+title: Mechanical properties of solid
 list_children: true
 ---
 
