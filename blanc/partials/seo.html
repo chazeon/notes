@@ -1,2 +1,35 @@
-<title>{{title}}</title>
-<meta name="description" content="{{description}}" />
+{% block site_meta %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+{% if page and page.meta and page.meta.description %}
+<meta name="description" content="{{ page.meta.description }}">
+{% elif config.site_description %}
+<meta name="description" content="{{ config.site_description }}">
+{% endif %}
+
+{% if page and page.meta and page.meta.author %}
+  <meta name="author" content="{{ page.meta.author }}">
+{% elif config.site_author %}
+  <meta name="author" content="{{ config.site_author }}">
+{% endif %}
+
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% endif %}
+
+{% if config.theme.favicon %}
+<link rel="icon" href="{{ config.theme.favicon | url }}">
+{% endif %}
+
+{% endblock %}
+
+{% block htmltitle %}
+{% if page and page.meta and page.meta.title %}
+  <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+{% elif page and page.title and not page.is_homepage %}
+  <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+{% else %}
+  <title>{{ config.site_name }}</title>
+{% endif %}
+{% endblock %}

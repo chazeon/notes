@@ -1,4 +1,7 @@
 site_name: Chenxing Luo
+site_author: Chenxing Luo
+site_description: Chenxing Luo's homepage and academic notes
+
 theme:
   name: null
   custom_dir: blanc

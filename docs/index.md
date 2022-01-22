@@ -3,21 +3,6 @@ template: profile.html
 title: Welcome!
 ---
 
-<div id="front" class="rounded">
-    <img src="res/profile-thumb.jpg" class="rounded" alt="Profile picture" width="100">
-    <div class="name">Chenxing Luo</div>
-    <div class="description">PhD student in the Applied Physics & Applied Mathematics Department</div>
-    <div class="link">[ <a href="https://orcid.org/0000-0003-4116-6851">ORCiD</a>
-        | <a href="https://github.com/chazeon">GitHub</a>
-        | <a href="https://scholar.google.com/citations?user=iMefCXUAAAAJ">Google Scholar</a>
-        | <a href="https://www.linkedin.com/in/chenxing-luo/">LinkedIn</a>
-        | <a href="http://www.mineralscloud.com/people">Group</a>
-        | <a href="mailto:cl3658@columbia.edu">Email</a>
-        | <a href="notes/">Notes</a>
-        ]</div>
-</div>
-<div class="clearfix"></div>
-
 ## Bio
 
 I am currently a PhD student (2019–) at the [Applied Physics & Applied Mathematics Department](https://www.apam.columbia.edu/) in [Columbia University](https://www.columbia.edu/). I work as a graduate research assistant with [Professor Renata Wentzcovitch](https://www.apam.columbia.edu/faculty/renata-wentzcovitch).

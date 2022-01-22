@@ -1,0 +1,15 @@
+<nav role="navigation" aria-label="breadcrumbs navigation" id="breadcrumbs">
+  <span class="nav-item"><a href="{{ nav.homepage.url | url }}" class="icon icon-home" alt="{% trans %}Home{% endtrans %}">Home</a></span>
+  {%- if page %}
+    {%- for _page in (page.ancestors[::-1] if not page.is_index else page.ancestors[1:][::-1])%}
+      <span class="nav-item">
+        {%- if _page.link %}
+        <a href="{{ _page.link | e }}">{{ _page.title }}</a>
+        {%- else %}
+        <a href="{{ _page.children[0].url | url }}">{{ _page.children[0].title }}</a>
+        {%- endif %}
+      </span>
+    {%- endfor %}
+  {%- endif %}
+  {%- if page %}<span class="nav-item">{{ page.title }}</span>{%- endif %}
+</nav>

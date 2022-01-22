@@ -13,13 +13,15 @@ body > #content h2 {
 
 {% block main %}
 
-{% include "partials/breadcrumbs.html" %}
+{% include "partials/nav.html" %}
 
+<article class="note">
 <h1 class="title">{{ page.title }}</h1>
-
 {{ page.content }}
+
 {%- if page.meta.list_children %}
 {% include "partials/list.html" %}
 {%- endif %} 
+</article>
 
 {% endblock %}
