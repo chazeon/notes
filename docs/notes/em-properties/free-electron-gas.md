@@ -1,5 +1,5 @@
 ---
-title: Free electron-gas (electron-in-a-box) model
+title: Free electron-gas model
 ---
 
 ## 1D model and density of states
@@ -42,7 +42,7 @@ Because $k_n \propto E$, density of states gives $D(E)$ or $D(k)$,
 
 ## Electronic energy and electronic specific heat
 
-See also [Lattice specific heat](https://www.notion.so/Lattice-specific-heat-bdd09b0226404165817d1bf3b1940342)
+See also [[lattice specific heat]].
 
 Sommerfeld expansion...?
 

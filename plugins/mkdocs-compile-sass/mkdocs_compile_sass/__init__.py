@@ -43,35 +43,6 @@ class CompileSASSPlugin(plugins.BasePlugin):
 
             file.url = str(Path(file.url).parent / Path(file.url).stem)
 
-
-                # print(css_path, file)
-            
-            # raise Error()
-            # print(docs_dir, type(temp_dir))
-
-        # assets = os.path.join(os.getcwd(), "theme", "assets")
-        # scss = os.path.join(assets, "scss")
-
-        # tempdir = tempfile.gettempdir()
-        # theme = os.path.join(scss, "theme.scss")
-        # out = os.path.join(tempdir, "theme.css")
-
-        # sys.stdout.write("Compiling %s -> %s.." % (theme, out))
-        # if subprocess.check_call(["pysassc", theme, out]) != 0:
-            # sys.stdout.write(" failed\n")
-            # return files
-        # else:
-            # sys.stdout.write("\n")
-
-            # file = structure.files.File(
-            #     "theme.css",
-            #     src_dir=tempdir,
-            #     dest_dir=os.path.join("theme", "assets", "css"),
-            #     use_directory_urls=False
-            # )
-
-            # files.append(file)
-
         return files
     
     def on_post_build(self, config):

@@ -2,7 +2,6 @@ pymdown-extensions
 mdx_truly_sane_lists
 markdown-captions
 
-mkdocs-simple-hooks
 mkdocs-minify-plugin
 
 jinja2-time

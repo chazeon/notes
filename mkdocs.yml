@@ -20,6 +20,7 @@ markdown_extensions:
 plugins:
   - search
   - compile_sass
+  - mkdocs_wikilinks_enabler
   - jinja2_load_extensions:
       extensions:
         - jinja2_time.TimeExtension

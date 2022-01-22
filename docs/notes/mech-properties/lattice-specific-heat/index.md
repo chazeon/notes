@@ -18,7 +18,7 @@ Also, monoatomic gas: $3/2R$
 
 Basically we assume linear dependence in $\omega$ vs. $k$ for acoustic modes $\omega = kv_m$ (which is true for acoustic modes near $\Gamma$ point), then the energy of mode $E = \hbar \omega = \hbar v_m k$.
 
-The density of state in $k$ space, in compare with [Free electron-gas (electron-in-a-box) model](https://www.notion.so/Free-electron-gas-electron-in-a-box-model-65e4c0d3ebf04b8dbeb8cfa8758acf14), we have 3 modes (1 LA + 2 TA, or longitudinal and transverse acoustic modes).
+The density of state in $k$ space, in compare with [[free-electron-gas|Free electron-gas model]], we have 3 modes (1 LA + 2 TA, or longitudinal and transverse acoustic modes).
 
 $$ D_{k^3} = \frac{3}{(\pi / L)^3} $$
 
@@ -82,7 +82,7 @@ $$ c_V =   \frac{\pi^2}{2} k_\text{B}^2 T / E_\text{f} = \frac{\pi^2}{2} k_\text
 
 Under Drude model, the electronic specific heat $c_V \propto T$.
 
-See also [Drude model for conductivity](https://www.notion.so/Drude-model-for-conductivity-a9ada9f3a78e48458403d25dff563ced), [Free electron-gas (electron-in-a-box) model](https://www.notion.so/Free-electron-gas-electron-in-a-box-model-65e4c0d3ebf04b8dbeb8cfa8758acf14)
+See also [[Drude model for conductivity]], [[Free electron-gas model]].
 
 ### Comparing electronic and lattice specific heat
 
