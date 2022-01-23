@@ -1,6 +1,8 @@
 site_name: Chenxing Luo
 site_author: Chenxing Luo
 site_description: Chenxing Luo's homepage and academic notes
+site_analytics:
+  google: G-HVVEZZZNJV
 
 theme:
   name: null

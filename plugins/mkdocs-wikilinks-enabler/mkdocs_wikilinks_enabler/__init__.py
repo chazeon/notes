@@ -3,7 +3,25 @@ from logging import getLogger
 import difflib
 from mkdocs.utils import normalize_url
 
+from markdown.extensions.wikilinks import WikiLinkExtension, WikiLinksInlineProcessor
+
+
 logger = getLogger("mkdocs")
+
+
+class CustomWikiLinkExtension(WikiLinkExtension):
+    '''Wiki link extension but with a more permissive wikilinks regex expression.'''
+
+    def extendMarkdown(self, md):
+
+        self.md = md
+
+        # append to end of inline patterns
+        WIKILINK_RE = r'\[\[(.+?)\]\]'
+        wikilinkPattern = WikiLinksInlineProcessor(WIKILINK_RE, self.getConfigs())
+        wikilinkPattern.md = md
+        md.inlinePatterns.register(wikilinkPattern, 'wikilink', 75)
+
 
 class WikiLinksEnablerPlugin(plugins.BasePlugin):
 
@@ -36,11 +54,10 @@ class WikiLinksEnablerPlugin(plugins.BasePlugin):
         return url
 
     def on_config(self, config):
-        config["markdown_extensions"].append("wikilinks")
-        config["mdx_configs"]["wikilinks"] = {
-            "base_url": "/",
-            "build_url": lambda label, base, end: self.build_url(label, base, end)
-        }
+        config["markdown_extensions"].insert(0, CustomWikiLinkExtension(
+            build_url=lambda label, base, end: self.build_url(label, base, end)
+        ))
+
         self.config = config
 
     def on_files(self, files, config):

@@ -34,7 +34,7 @@ $$ \chi_{n}(\omega) = \frac{\tilde x_0(\omega_0)}{\tilde x_0(\omega)}=\frac{\ome
 
 Q-factor relate to the imaginary part, or the $\eta$ term=
 
-See [Anelasticity, damping](https://www.notion.so/Anelasticity-damping-7793e6ac446e4b1293afd2661d44bb47).
+See [[Anelasticity, damping]].
 
 ## Phase
 
