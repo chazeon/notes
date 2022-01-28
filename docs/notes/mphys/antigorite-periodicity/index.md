@@ -6,11 +6,11 @@ title: Antigorite periodicity
 
 The brucite–lizardite–talc line: $\ce{x MgO * y SiO2 * Mg(OH)2}$
 
-![Chemographic projection of antigorite. (A:$\ce{Mg_{3m-3}Si_{2m}O_{5m}(OH){4m-6}}$) polysomes along the join brucite (B: $\ce{Mg(OH)2}$)-talc (T: $\ce{Mg3Si{2m}(OH)2}$). C: chrysotile / lizardite $\ce{Mg3Si2O5(OH)4}$. (Mellini & Zanazzi, 1987)](p0.png)
+![Chemographic projection of antigorite. (A:$\ce{Mg_{3m-3}Si_{2m}O_{5m}(OH){4m-6}}$) polysomes along the join brucite (B: $\ce{Mg(OH)2}$)-talc (T: $\ce{Mg3Si{2m}(OH)2}$). C: chrysotile / lizardite $\ce{Mg3Si2O5(OH)4}$. (Mellini et al., 1987)](p0.png)
 
 ## Antigorite
 
-Serpentine formula $\ce{M_{3m-3}T_{2m}O_{5m}(OH)*{4m-6}}$ / $\ce{Mg*{3m-3}Si_{2m}O_{5m}(OH)_{4m-6}}$
+Serpentine formula $\ce{M_{3m-3}T_{2m}O_{5m}(OH)_{4m-6}}$ / $\ce{Mg_{3m-3}Si_{2m}O_{5m}(OH)_{4m-6}}$
 
 The periodicity $m$ is related to cell size and is also an “indicator” for the depletion of $\ce{Mg(OH)2}$ against lizardite.
 
@@ -44,4 +44,5 @@ $$ \ce{$\underset{\text{lizardite}}{\ce{m Mg3Si2O5(OH)4}}$ -> $\underset{\text{a
 
 - Capitani, G., & Mellini, M. (2004). The modulated crystal structure of antigorite: The m = 17 polysome. *American Mineralogist*, *89*(1), 147–158. https://doi.org/10.2138/am-2004-0117
 - Mellini, M., & Zanazzi, P. F. (1987). Crystal structures of lizardite-1T and lizardite-2H1 from Coli, Italy. *American Mineralogist*, *72*(9–10), 943–948.
+- Mellini, M., Trommsdorff, V., & Compagnoni, R. (1987). Antigorite polysomatism: Behaviour during progressive metamorphism. *Contributions to Mineralogy and Petrology*, *97*(2), 147–155. https://doi.org/10.1007/BF00371235
 - Shen, T., Zhang, C., Chen, J., Hermann, J., Zhang, L., Padrón-Navarta, J. A., Chen, L., Xu, J., & Yang, J. (2020). Changes in the cell parameters of antigorite close to its dehydration reaction at subduction zone conditions. *American Mineralogist*, *105*(4), 569–582. https://doi.org/10.2138/am-2020-7159
