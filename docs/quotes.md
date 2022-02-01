@@ -20,3 +20,8 @@ title: Quotes
 > Thornton exposes the limits of language and vision in her works, while acknowledging the ways that **language and vision nevertheless remain central to scientific discourse and narrative in general**.
 
 [1]: https://listart.mit.edu/exhibitions/leslie-thornton
+
+
+[Adam Pendleton](https://www.moma.org/magazine/articles/635)
+
+> History is an endless variation, a machine upon which we can project ourselves and our ideas. That is to say it is our present moment.
