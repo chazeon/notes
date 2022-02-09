@@ -9,7 +9,7 @@ setup(
             'mkdocs_wikilinks_enabler = mkdocs_wikilinks_enabler:WikiLinksEnablerPlugin',
         ]
     },
-    requires=[
+    install_requires=[
         "mkdocs",
     ]
 )

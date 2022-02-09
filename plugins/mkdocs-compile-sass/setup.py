@@ -9,7 +9,7 @@ setup(
             'compile_sass = mkdocs_compile_sass:CompileSASSPlugin',
         ]
     },
-    requires=[
+    install_requires=[
         "mkdocs",
         "libsass"
     ]

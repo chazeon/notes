@@ -9,8 +9,7 @@ setup(
             'mkdocs_subpages = mkdocs_subpages:MkdocsSubpagesPlugin',
         ]
     },
-    requires=[
+    install_requires=[
         "mkdocs",
-        "libsass"
     ]
 )

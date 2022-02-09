@@ -1,3 +1,4 @@
+from gettext import install
 from setuptools import setup, find_packages
 
 setup(
@@ -9,7 +10,7 @@ setup(
             'jinja2_load_extensions = mkdocs_jinja2_load_extensions:Jinja2LoadExtensionPlugin',
         ]
     },
-    requires=[
+    install_requires=[
         "mkdocs",
     ]
 )
