@@ -12,6 +12,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       preview: false
   - pymdownx.magiclink
+  - pymdownx.highlight:
+      use_pygments: true
   - pymdownx.snippets
   - mdx_truly_sane_lists:
       nested_indent: 2
@@ -23,6 +25,7 @@ plugins:
   - search
   - compile_sass
   - mkdocs_wikilinks_enabler
+  - mkdocs_subpages
   - jinja2_load_extensions:
       extensions:
         - jinja2_time.TimeExtension
