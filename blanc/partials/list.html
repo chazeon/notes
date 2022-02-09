@@ -1,6 +1,6 @@
 <ul>
 {%- for _page in page|subpages %}
-  {%- if _page.hide != false %}
+  {%- if _page.meta.hide != true and _page.url != page.url %}
   <li><a href="{{_page.url | url}}">{{_page.title}}</a></li>
   {%- endif -%}
 {%- endfor %}

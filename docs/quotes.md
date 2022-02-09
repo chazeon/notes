@@ -22,6 +22,6 @@ title: Quotes
 [1]: https://listart.mit.edu/exhibitions/leslie-thornton
 
 
-[Adam Pendleton](https://www.moma.org/magazine/articles/635)
+[ADAM PENDLETON](https://www.moma.org/magazine/articles/635)
 
 > History is an endless variation, a machine upon which we can project ourselves and our ideas. That is to say it is our present moment.
