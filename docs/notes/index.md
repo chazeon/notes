@@ -14,6 +14,7 @@ Based on their topics, you might want to start from one of the following categor
   - [Linear algebra](linear-algebra)
   - [Mechanical properties of solid](mech-properties)
   - [Thermodynamics](thermodynamics)
+- [Technical Notes](technical)
 
 There is a [tree](tree) that lists all the notes.
 

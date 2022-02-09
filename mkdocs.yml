@@ -14,6 +14,7 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.highlight:
       use_pygments: true
+  - pymdownx.superfences
   - pymdownx.snippets
   - mdx_truly_sane_lists:
       nested_indent: 2
