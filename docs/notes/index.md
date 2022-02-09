@@ -15,6 +15,6 @@ Based on their topics, you might want to start from one of the following categor
   - [Mechanical properties of solid](mech-properties)
   - [Thermodynamics](thermodynamics)
 
-There is also a [tree](tree) that lists all the notes.
+There is a [tree](tree) that lists all the notes.
 
-I also have a [about](about) page and a [quote](quote) page that you might find interesting.
+There is also a [about](../about) page and a [quotes](../quotes) page that you might find interesting.
