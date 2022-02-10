@@ -8,7 +8,7 @@ Building QE requires properly setting up a Fortran compiler and a bunch of [preb
 
 Prepare the following `environment.yml` file:
 
-```yml
+```yaml
 name: qe
 channels:
   - conda-forge
@@ -65,3 +65,7 @@ Program PWSCF v.7.0 starts on 27Jan2022 at 14: 2: 5
 ```
 
 QE with this version run successfully with 32 MPI processors on [PSC Briges-2's regular memory (RM) node](https://www.psc.edu/resources/bridges-2/) (AMD EPYC 7742 64-core CPU), but does not works with 64 processes.
+
+## See also
+
+- [[Install DeePMD-kit via conda]]
