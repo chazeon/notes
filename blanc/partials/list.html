@@ -1,5 +1,5 @@
 <ul>
-{%- for _page in page|subpages %}
+{%- for _page in page|subpages|sort(attribute='title') %}
   {%- if _page.meta.hide != true and _page.url != page.url %}
   <li><a href="{{_page.url | url}}">{{_page.title}}</a></li>
   {%- endif -%}
