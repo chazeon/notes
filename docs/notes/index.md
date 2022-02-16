@@ -14,7 +14,10 @@ Based on their topics, you might want to start from one of the following categor
   - [Linear algebra](linear-algebra)
   - [Mechanical properties of solid](mech-properties)
   - [Thermodynamics](thermodynamics)
-- [Technical Notes](technical)
+- Technical Workbench
+  - [Software](technical)
+  - [Hardware](hardware)
+
 
 There is a [tree](tree) that lists all the notes.
 
