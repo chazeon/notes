@@ -1,5 +1,5 @@
 ---
-title: Point defects (1D defects)
+title: Point defects (0D defects)
 ---
 
 
@@ -64,3 +64,7 @@ The expression of defect concentration are obtained from equilibrium constants $
 ## Defect and diffusion??
 
 See [[Diffusion]]
+
+## See also
+
+- [[Dislocations (1D defects)]], which has more of a mechanical aspect.

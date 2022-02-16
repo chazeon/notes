@@ -16,15 +16,13 @@ title: Dislocation (1D defects)
 - The same dislocation shares the same $\vec b$
 - Slip plane $\vec b \times \vec t$
 
-![Different types of dislocation. via Science and Design of Engineering Materials (p.157)](p1.png)
-
-Different types of dislocation. via Science and Design of Engineering Materials (p.157)
+![Different types of dislocation. via *Science and Design of Engineering Materials* (p.157)](p1.png)
 
 ### Slip system
 
 Usually the highest density plane.
 
-![Slip planes for different crystal systems. via Science and Design of Engineering Materials (p.162)](p2.png)
+![Slip planes for different crystal systems. via *Science and Design of Engineering Materials* (p.162)](p2.png)
 
 ## Force on dislocation: Peach-Koehler formula
 
@@ -55,3 +53,8 @@ Important points:
 3. Strain falls off as $1/r$.
 
 ![Elastic energy of a screw dislocation (via Bailey)](p3.jpeg)
+
+## See also
+
+- [[Point defects (0D defects)]], which has more of a thermodynamic aspect.
+- *Science and Design of Engineering Materials* has a really good chapter on this topic.
