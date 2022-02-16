@@ -15,7 +15,7 @@ Based on their topics, you might want to start from one of the following categor
   - [Mechanical properties of solid](mech-properties)
   - [Thermodynamics](thermodynamics)
 - Technical Workbench
-  - [Software](technical)
+  - [Software](software)
   - [Hardware](hardware)
 
 
