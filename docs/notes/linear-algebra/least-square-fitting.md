@@ -4,6 +4,6 @@ title: Least square fitting
 
 We want to find the best $x$ that minimizes the error $||Ax-b||^2$.
 
-The bluteforce strategy is to find the solution for the equation $A^TA \hat x = A^Tb$. Multiplying by $A^T$ will remove the error part.
+The brute-force strategy is to find the solution for the equation $A^TA \hat x = A^Tb$. Because $A^TA$ as a [[projection operator]], keeps only the part of $x$ that is representable by the basis vectors from $A$, effectively removing the error $e$:
 
-We also acknoledge that $||A \hat x - b||^2 = ||A \hat x - (b-e)||^2 + ||e||^2$.
+$$ ||A \hat x - b||^2 = ||A \hat x - (b-e)||^2 + ||e||^2. $$
