@@ -6,9 +6,9 @@ title: Solidification
 
 ## Driving force
 
-![Solidification ΔG vs $T$. via CFD slides (attached)](Untitled.png){.float-right style="width: 240px"} 
+![Solidification ΔG vs $T$. via CFD slides (attached)](Untitled.png){.float-right style="max-width: 240px"} 
 
-![](20200805.png){style="width: 400px"}
+![](20200805.png){style="max-width: 400px"}
 
 ## References
 

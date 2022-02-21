@@ -20,7 +20,7 @@ title: Dielectric
 
 Under an external electronic field, the redistribution of electrons in matter causes **depolarization** and also contributes to the electric field in space.
 
-![Depolarization field and redistribution of electrons in a material. via Kittle (p.459)](Untitled.png){style="width:300px"}
+![Depolarization field and redistribution of electrons in a material. via Kittle (p.459)](Untitled.png){style="max-width:300px"}
 
 ### Inside material
 
@@ -76,7 +76,7 @@ And we found $x = e^2 / m(\omega_0^2 - \omega^2)$
 
 In fact we can see [...]
 
-![Polarizability $\alpha$ as a function of frequency $\omega$. via Kittle (p.464)](Untitled%201.png){style="width:400px"}
+![Polarizability $\alpha$ as a function of frequency $\omega$. via Kittle (p.464)](Untitled%201.png){style="max-width:400px"}
 
 ## References
 
