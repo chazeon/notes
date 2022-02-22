@@ -17,6 +17,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.extra
+  - pymdownx.critic
+  - pymdownx.tilde
   - pymdownx.smartsymbols
   - mdx_truly_sane_lists:
       nested_indent: 2
