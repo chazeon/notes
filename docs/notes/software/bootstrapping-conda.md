@@ -46,6 +46,10 @@ dependencies:
   - certifi
   - pandas
   - tqdm
+  - pint
+  - sympy
+  - yaml
+  - pyyaml
 ```
 
 #### The QHA/Cij environment
@@ -67,8 +71,6 @@ dependencies:
     - qha
     - git+https://github.com/MineralsCloud/cij.git
 ```
-
-
 
 ### Exporting a environments
 
