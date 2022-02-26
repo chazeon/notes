@@ -106,3 +106,4 @@ Now we also have the option to use [miniforge](https://github.com/conda-forge/mi
 ## See also
 
 - [[Install Quantum ESPRESSO via conda]]
+- [[Bootstrapping my conda environment on local computer]]

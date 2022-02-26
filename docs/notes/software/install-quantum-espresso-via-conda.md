@@ -69,3 +69,4 @@ QE with this version run successfully with 32 MPI processors on [PSC Briges-2's 
 ## See also
 
 - [[Install DeePMD-kit via conda]]
+- [[Bootstrapping my conda environment on local computer]]
