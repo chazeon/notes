@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block head %}
+{% include "partials/katex.html" %}
+<style>
+body > #content h2 {
+  margin-top: 1em;
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+  /* border-top: 2px solid #000; */
+  padding: 4px 0;
+  border-bottom: 1.5px solid #000;
+}
+</style>
+{% endblock %}
+
+{% block main %}
+
+{{ super() }}
+
+<ul>
+{%- for _page in (pages|rejectattr("page.meta.hide", "true")|sort(attribute="page.meta.date", reverse=true))[:20] %}
+  <li><a href="{{_page.url | url}}">
+  {%-if _page.page.is_index and _page.page.parent %}
+  {{ _page.page.parent.title }}
+  {%- else %}
+  {{ _page.page.title }}
+  {%- endif %}</a> <span style=" font-size: 70%; color:#999">({{_page.page.meta.date}})</span></li>
+{%- endfor %}
+</ul>
+
+{% endblock %}

@@ -31,6 +31,7 @@ plugins:
   - compile_sass
   - mkdocs_wikilinks_enabler
   - mkdocs_subpages
+  - mkdocs_blogging
   - jinja2_load_extensions:
       extensions:
         - jinja2_time.TimeExtension
