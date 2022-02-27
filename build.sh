@@ -5,6 +5,7 @@ curl "https://raw.githubusercontent.com/MestreLion/git-tools/main/git-restore-mt
 chmod +x $GIT_RESTORE_MTIME
 $GIT_RESTORE_MTIME -v -f docs
 
+git pull --unshallow
 pip3 install -r requirements.txt
 
 cd plugins
