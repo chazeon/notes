@@ -21,8 +21,8 @@ body > #content h2 {
 <ul>
 {%- for _page in (pages|rejectattr("page.meta.hide", "true")|sort(attribute="page.meta.date", reverse=true))[:20] %}
   <li><a href="{{_page.url | url}}">
-  {%-if _page.page.is_index and _page.page.parent %}
-  {{ _page.page.parent.title }}
+  {%-if _page.page.is_section and _page.page.children %}
+  {{ _page.page.children[0].title }}
   {%- else %}
   {{ _page.page.title }}
   {%- endif %}</a> <span style=" font-size: 70%; color:#999">({{_page.page.meta.date}})</span></li>
