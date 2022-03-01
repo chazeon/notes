@@ -77,4 +77,5 @@ I use [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) on Windows
 
 - [LaTeX Workshop - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 - [Skim Help: PDF-TeX synchronization (sourceforge.io)](https://skim-app.sourceforge.io/manual/SkimHelp_49.html)
+- [Skim / Wiki / TeX_and_PDF_Synchronization (sourceforge.net)](https://sourceforge.net/p/skim-app/wiki/TeX_and_PDF_Synchronization/)
 
