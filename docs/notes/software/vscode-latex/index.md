@@ -5,6 +5,20 @@ date: 2021-02-28
 
 Nowadays, I would just use OverLeaf to compile LaTeX given its carefree LaTeX building environment. One of the most lovable feature is its arXiv export functionality. But when I am on-the-go, I would just fallback to build LaTeX locally to avoid a large phone bill caused by transfering of PDF preview image.
 
+## Installing LaTeX
+
+### macTeX on macOS
+
+I almost never use GUI that comes with LaTeX distributions, so I just install the `mactex-nogui` with Homebrew.
+
+```bash
+brew install mactex-nogui
+```
+
+### TeXLive on Windows
+
+
+
 ## VSCode $\LaTeX$-specific settings
 
 Writing LaTeX, there is some specific tuning I prefer:

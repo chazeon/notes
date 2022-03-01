@@ -4,6 +4,21 @@ title: Install Quantum ESPRESSO via conda
 
 Building QE requires properly setting up a Fortran compiler and a bunch of [prebuilt libraries](https://www.quantum-espresso.org/Doc/user_guide/node12.html) such as MPI/OpenMP, BLAS, LAPACK and FFTW, this can be cumbersome at time. On a HPC, it is not likely you will enjoy the privilege to be able to use a prebuilt Docker environment. Therefore, the easiest way to get QE up and running on a HPC is probably to use the prebuilt version from [conda-forge](https://anaconda.org/conda-forge/qe).
 
+## Install miniconda
+
+Install miniconda. Download from its [official release](https://docs.conda.io/en/latest/miniconda.html) page and execute the installation script, e.g.,
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh ./Miniconda3-latest-Linux-x86_64.sh
+```
+
+Disable its automatic activation if you prefer to activate the `(base)` environment manually.
+
+```bash
+conda config --set auto_activate_base false
+```
+
 ## Creating the conda environment
 
 Prepare the following `environment.yml` file:
@@ -17,7 +32,7 @@ dependencies:
   - qe
 ```
 
-And construct the environment at `./env` from the `environment.yml` by
+In your terminal, go to the directory that contains the `environment.yml` file, and construct the conda environment based on the `environment.yml` file to the `./env` subdirectory by
 
 ```bash
 conda env create \
