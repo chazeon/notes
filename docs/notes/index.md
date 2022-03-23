@@ -17,6 +17,7 @@ Based on their topics, you might want to start from one of the following categor
 - Technical Workbench
   - [Software](software)
   - [Hardware](hardware)
+  - [Home Improvement](home-improvement)
 
 There is a [list of recent updates](../updates) and a [tree listing all pages](tree) for your convenience.
 
