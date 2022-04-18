@@ -11,7 +11,7 @@ I got my bachelor degree from [Nanjing University](http://www.nju.edu.cn/) (2013
 
 ## Research Focus
 
-My research focuses on investigating physical properties of Earth-forming materials under finite pressure and temperature with *ab initio* method.
+My research interests lie broadly around the intersection of physics and computer science. My current research focuses on investigating physical properties of Earth-forming materials under finite pressure and temperature with *ab initio* method.
 
 ###  Hydrogen-bond disordering in δ-AlOOH
 
@@ -29,7 +29,7 @@ This study introduces the [`cij`  Python package](https://github.com/MineralsClo
 
 This study investigates the change in second-order elastic constants under induced stress / strain. Our results show the changes in second-order elastic constants are connected with third-order elastic constants and pressure derivative of second-order elastic constants.
 
-- C. Luo, J. Tromp, and R. Wentzcovitch, [*Strain- and Stress-Induced Changes on Second-Order Elastic Coefficient and Its Relationship with Third-Order Elastic Coefficient*](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/898808), in *AGU Fall Meeting 2021* (2021). [[poster](files/agu21-toec.pdf)]
+- C. Luo, J. Tromp, and R. Wentzcovitch, [*Ab initio calculations of the third-order elastic coefficients*](), (2022). [submitted] [[preprint](), [poster](files/agu21-toec.pdf)]
 
 ### Physical properties of serpentine minerals
 
