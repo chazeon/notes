@@ -29,7 +29,7 @@ This study introduces the [`cij`  Python package](https://github.com/MineralsClo
 
 This study investigates the change in second-order elastic constants under induced stress / strain. Our results show the changes in second-order elastic constants are connected with third-order elastic constants and pressure derivative of second-order elastic constants.
 
-- C. Luo, J. Tromp, and R. Wentzcovitch, [*Ab initio calculations of the third-order elastic coefficients*](), (2022). [submitted] [[preprint](), [poster](files/agu21-toec.pdf)]
+- C. Luo, J. Tromp, and R. Wentzcovitch, [*Ab initio calculations of the third-order elastic coefficients*](https://arxiv.org/abs/2204.07608), (2022). [submitted] [[preprint](https://arxiv.org/abs/2204.07608), [poster](files/agu21-toec.pdf)]
 
 ### Physical properties of serpentine minerals
 
