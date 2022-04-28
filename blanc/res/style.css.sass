@@ -155,3 +155,65 @@ nav
     .nav-item + .nav-item::before
         content: " › "
         margin: 0 2px
+
+body
+    --ok-fw-0: 400
+    --ok-fw-1: 600
+    --ok-fw-2: 700
+    --ok-fw-3: 700
+    --ok-fs-0: 2.5rem
+    --ok-fs-1: 2rem
+    --ok-fs-2: 1.5rem
+    --ok-fs-3: 1.25rem
+    --ok-fs-4: 1rem
+    --ok-fs-5: 0.75rem
+    --ok-br: 0.25rem
+    --ok-s-0: 0
+    --ok-s-1: 0.25rem
+    --ok-s-2: 0.5rem
+    --ok-s-3: 1rem
+    --ok-s-4: 1.5rem
+    --ok-s-5: 2rem
+    --ok-s-6: 2.5rem
+    --ok-lh-body: 1.5
+    --ok-lh-heading: 1.25
+    --ok-t-hl: #ffcf30
+    --ok-accent-0: #3e67fa
+    --ok-accent-1: #4788ff
+    --ok-tc-accent: #3173de
+    --ok-tc-code: #c23a30
+    --ok-tc-0: #000
+    --ok-tc-1: #747474
+    --ok-tc-2: #848484
+    --ok-bg-0: #fff
+    --ok-bg-1: #f0f0f0
+    --ok-bg-2: #ccc
+    --ok-b-0: 1px solid #cbcbcb
+    --ok-b-1: 1px solid #848484
+
+table
+
+    border-collapse: collapse
+    display: table
+    margin-left: auto
+    margin-right: auto
+    white-space: nowrap
+
+    td, th
+        border: var(--ok-b-0) 0
+        text-align: left
+        padding: .5rem
+
+    td
+        white-space: normal
+        // max-width: 20ch
+
+    tr, tfoot, thead
+        border: var(--ok-b-0)
+    
+    thead tr, tfoot tr
+    
+        background-color: var(--ok-bg-1)
+        font-size: var(--ok-fs-5)
+        text-transform: uppercase
+        color: var(--ok-tc-0)
