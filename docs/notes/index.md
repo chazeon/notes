@@ -8,6 +8,7 @@ Based on their topics, you might want to start from one of the following categor
 
 - Research Notes
   - [Mineral physics & geophysics](mphys)
+  - [Machine learning potentials](ml-potential)
 - Course Notes
   - [Electronic & magnetic properties of solid](em-properties)
   - [Kinetics](kinetics)
