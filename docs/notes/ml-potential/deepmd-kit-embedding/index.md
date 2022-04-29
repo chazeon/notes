@@ -1,9 +1,32 @@
 ---
-title: DeepMD-kit algorithm
+title: The DP descriptor
 date: 2022-04-28
 ---
 
-## Overview
+
+
+## The vanilla non-smooth DP
+
+### Overview
+
+$$
+\ce{
+\underset{global coordinate}{$(x,y,z)$} ->[\mathcal{R}][rotation] \underset{local coordinate}{$(x',y',z')$} -> \underset{descriptor}{$\{\mathcal{D}_{ij}\}$}
+}
+$$
+
+### The descriptor $\{\mathcal{D}_{ij}\}$
+
+- Radial information: $1/r_{ij}$
+- Distance info: $(x' / r_{ij}, y' / r_{ij}, z' / r_{ij})$.
+
+
+
+![The rotation matrix $\mathcal{R}$ that transforms the global coordinate to the local coordinate in the vanilla non-smooth DP. (Wen et al., 2022)](vanilla-dp.png){ style='max-width: 300px' }
+
+## The smooth DP (DP-SE)
+
+### Overview
 
 A simplified description of the process of constructing the energy is the following:
 
