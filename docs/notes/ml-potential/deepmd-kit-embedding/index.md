@@ -38,7 +38,19 @@ A more complete depiction can be seen in (Wen et al., 2022) as shown in the foll
 
 ![The construction of the network (Wen et al., 2022). ](descriptor.png){ style='max-width: 300px' }
 
+### Nomenclature
 
+| Variable                | Description                         | Dimension  |
+| ----------------------- | ----------------------------------- | ---------- |
+| $\mathcal{R}_i$         | the environment matrix for atom $i$ | $(N_i, 3)$ |
+| $\tilde{\mathcal{R}}_i$ | the augmented matrix for atom $i$   | $(N_i, 4)$ |
+| $\mathcal{G}^{(2)}_i$   | the two-body embedding matrix       | $(N_i, M)$ |
+| $\mathcal{G}^{(3)}_i$   | the three-body embedding matrix     |            |
+| $\mathcal{D}_i$         | the smooth descriptors              |            |
+
+### Accuracy
+
+$\mathcal{D}_i^{(3)} > \mathcal{D}_i^{(2,a)} > \mathcal{D}_i^{(2,r)}$ (Wen et al., 2022).
 
 
 ## References
