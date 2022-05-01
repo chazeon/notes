@@ -2,7 +2,7 @@
 title: Fix Zsh's missing compinit
 ---
 
-On HPCs (e.g., TACC Stampede, Purdue Anvil), when using Zsh as the shell, you usually get the error that `compinit` is missing. For example,
+On HPCs (e.g., TACC Stampede, Purdue Anvil), the prompt is usually broken, and you are notified for the missing `compinit`. For example,
 
 ```
 /home/user/.oh-my-zsh/oh-my-zsh.sh:124: compinit: function definition file not found
