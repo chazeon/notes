@@ -62,12 +62,12 @@ In the DeePMD-kit implementation, they are named `se_e2_r`, `se_e2_a`, and `se_e
 
 ### Implementation
 
-The implementation details in DeePMD-kit is described in the docstring in the following functions:
+The implementation details in DeePMD-kit are described in the API documentation for the following functions:
 
 - [`depend.fit.ener.EnerFitting`](https://docs.deepmodeling.com/projects/deepmd/en/master/api_py/deepmd.fit.html#deepmd.fit.ener.EnerFitting)
 - [`deepmd.utils.network.embedding_net`](https://docs.deepmodeling.com/projects/deepmd/en/master/api_py/deepmd.utils.html#deepmd.utils.network.embedding_net)
 
-The specific shape of network (adjacent layers have same width or are twice as wide) the allows the use of *ResNet* (deep residual neural network) (He et al., 2015).
+The specific shape of network (adjacent layers have same or twice the width) allows the use of *ResNet* (deep residual neural network) (He et al., 2015).
 
 
 ## References
@@ -77,6 +77,7 @@ The specific shape of network (adjacent layers have same width or are twice as w
 - [deepmd_on_pytorch/model.py at master · shishaochen/deepmd_on_pytorch (github.com)](https://github.com/shishaochen/deepmd_on_pytorch/blob/master/deepmd_pt/model.py)
 - [deepmd-kit/network.py at 3e54fea7aedf5e1f68fa534f9c692f2be6077da9 · deepmodeling/deepmd-kit (github.com)](https://github.com/deepmodeling/deepmd-kit/blob/3e54fea7aedf5e1f68fa534f9c692f2be6077da9/deepmd/utils/network.py#L97=)
 - [deepmd.utils package — DeePMD-kit documentation (deepmodeling.com)](https://docs.deepmodeling.com/projects/deepmd/en/master/api_py/deepmd.utils.html#module-deepmd.utils.network)
+- [9.1. How to tune Fitting/embedding-net size? — DeePMD-kit documentation (deepmodeling.com)](https://docs.deepmodeling.com/projects/deepmd/en/master/troubleshooting/howtoset_netsize.html)
 - [3.1. Overall — DeePMD-kit documentation (deepmodeling.com)](https://docs.deepmodeling.com/projects/deepmd/en/latest/model/overall.html)
 - He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition. *ArXiv:1512.03385 [Cs]*. http://arxiv.org/abs/1512.03385
 - Wen, T., Zhang, L., Wang, H., E, W., & Srolovitz, D. J. (2022). Deep Potentials for Materials Science. *ArXiv:2203.00393 [Cond-Mat, Physics:Physics]*. http://arxiv.org/abs/2203.00393
