@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-I love tools. And I love tweaking, and creating them. Below is an indefinite list of tools that I have created.
+I love tools. And I love tweaking, and creating them. To some people’s liking, these are called “projects”. Below is an indefinite list of tools that I have created.
 
 ## Docsets
 
