@@ -45,8 +45,16 @@ A more complete depiction can be seen in (Wen et al., 2022) as shown in the foll
 | $\mathcal{R}_i$         | the environment matrix for atom $i$ | $(N_i, 3)$ |
 | $\tilde{\mathcal{R}}_i$ | the augmented matrix for atom $i$   | $(N_i, 4)$ |
 | $\mathcal{G}_i$         | the embedding matrix                | $(N_i, M)$ |
-| $\mathcal{D}_i$         | the smooth descriptors              |            |
-| $E_i$                   | the energy of atmo $i$              |            |
+| $\mathcal{D}_i$         | the smooth descriptors              | $(M, M')$  |
+| $E_i$                   | the energy of atom $i$              |            |
+
+More precisely, the map $\mathcal{G}_i \to \mathcal{R}_i$ is given by (Lu et al., 2021):
+
+$$ \mathcal{S}_i = (\mathcal{G}_i)^\mathrm{T} \, \mathcal{R}_i$$
+
+$$ \mathcal{D}_i = \mathcal{S}_i \, (\mathcal{S}_{i<})^\mathrm{T}$$
+
+where $\mathcal{S}_{i<}$ denotes the first "$i<$" columns of $S_i$. Here, $\mathcal{S}_i$ is of dimension $(M, 4)$ and $\mathcal{S}_i$ is of dimension $(M', 4)$ where $M' < M$. 
 
 ### Variants of the descriptor
 
@@ -80,6 +88,7 @@ The specific shape of network (adjacent layers have same or twice the width) all
 - [9.1. How to tune Fitting/embedding-net size? — DeePMD-kit documentation (deepmodeling.com)](https://docs.deepmodeling.com/projects/deepmd/en/master/troubleshooting/howtoset_netsize.html)
 - [3.1. Overall — DeePMD-kit documentation (deepmodeling.com)](https://docs.deepmodeling.com/projects/deepmd/en/latest/model/overall.html)
 - He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition. *ArXiv:1512.03385 [Cs]*. http://arxiv.org/abs/1512.03385
+- Lu, D., Jiang, W., Chen, Y., Zhang, L., Jia, W., Wang, H., & Chen, M. (2021). DP Train, then DP Compress: Model Compression in Deep Potential Molecular Dynamics. *ArXiv:2107.02103 [Physics]*. http://arxiv.org/abs/2107.02103
 - Wen, T., Zhang, L., Wang, H., E, W., & Srolovitz, D. J. (2022). Deep Potentials for Materials Science. *ArXiv:2203.00393 [Cond-Mat, Physics:Physics]*. http://arxiv.org/abs/2203.00393
 - Zhang, L., Han, J., Wang, H., Saidi, W. A., Car, R., & Weinan, E. (2018). End-to-end symmetry preserving inter-atomic potential energy model for finite and extended systems. *Proceedings of the 32nd International Conference on Neural Information Processing Systems*, 4441–4451. https://arxiv.org/abs/1805.09003
 
