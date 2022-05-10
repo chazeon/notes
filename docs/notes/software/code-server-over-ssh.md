@@ -29,7 +29,3 @@ ssh user@example.com \
 ```
 
 Now the code-server should be up and running on the HPC and avaliable from your browswer at `http://localhost:xxxx`.
-
-## Known issue
-
-- Image preview does not work.
