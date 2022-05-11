@@ -43,7 +43,7 @@ conda activate $(pwd)/env
 
 ### GPU dependency
 
-To install the GPU-enabled version, one need to have the GPUs and CUDA library available at the time the environment is being built because of the `__cuda`  virtual package dependency. This can be avoided by [specifying `CONDA_OVERRIDE_CUDA=""` environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-virtual.html#overriding-detected-packages) at install time, but CUDA is still required upon running the program. (See also [\[BUG\] Conda (CUDA) & TF 2.7 · Issue #1362 · deepmodeling/deepmd-kit (github.com)](https://github.com/deepmodeling/deepmd-kit/issues/1362)).
+To install the GPU-enabled version, one need to have the GPUs and CUDA library available at the time the environment is being built because of the `__cuda`  virtual package dependency. This can be avoided by [specifying `CONDA_OVERRIDE_CUDA="xxx"` environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-virtual.html#overriding-detected-packages) (e.g., `CONDA_OVERRIDE_CUDA="11.2"` on Anvil) at install time, but CUDA is still required upon running the program. (See also [\[BUG\] Conda (CUDA) & TF 2.7 · Issue #1362 · deepmodeling/deepmd-kit (github.com)](https://github.com/deepmodeling/deepmd-kit/issues/1362)).
 
 You can chcek the output of `conda info` for whether the virtual dependency `__cuda` is present to see if CUDA is properly installed and recognized, e.g.,
 
