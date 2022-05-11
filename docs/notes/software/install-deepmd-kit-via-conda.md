@@ -86,6 +86,16 @@ You can chcek the output of `conda info` for whether the virtual dependency `__c
 - “libsolv for much faster dependency solving”
 - “implemented in C++ for maximum efficiency”
 
+### `mamba` vs. `micromamba`
+
+ To install `micromamba`, you almost only have to copy a single binary, so it is easy to install. But it behaves differently with `mamba`, although preserves most of its "essential function". The differents would introduce frictions, e.g.,
+
+- `micromamba`’s `repoquery search` only shows local packages
+- `micromamba`’s `repoquery search` only shows local packages does not correctly implement command-line autocomplete
+- `micromamba`’s `create` is somehow equal to `env create`.
+
+So you would want to install `mamba` after installing the `micro-` version.
+
 ### `conda env build` vs. `conda build`
 
 `conda build` is a CLI-focused tool whereas `conda env` focus on using a YAML description file. Both resolves dependencies on installation.
