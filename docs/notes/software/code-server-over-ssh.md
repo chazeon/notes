@@ -29,3 +29,8 @@ ssh user@example.com \
 ```
 
 Now the code-server should be up and running on the HPC and avaliable from your browswer at `http://localhost:xxxx`.
+
+## Known issues
+
+- Code-server does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
+
