@@ -11,4 +11,4 @@ title: XSEDE Resources List
 | [SDSC Expanse](https://www.sdsc.edu/support/user_guides/expanse.html) | `login01.expanse.sdsc.edu`         |
 
 - For a list of login names see [XSEDE User Portal | Accounts](https://portal.xsede.org/group/xup/accounts).
-
+- Using SSH Public-Private Key Pairs on PSC Computers needs to be manually [submitted and verified](https://www.psc.edu/types-of-ssh-authentication/).
