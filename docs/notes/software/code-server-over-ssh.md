@@ -30,6 +30,10 @@ ssh user@example.com \
 
 Now the code-server should be up and running on the HPC and avaliable from your browswer at `http://localhost:xxxx`.
 
+### Install the webpage as an app (optional)
+
+Many morden browsers allows you to install a webpage as an app. This gives you the benefit of saving the screen real estate of the tabbar and location bar, and additionally add an icon in your dock (on MacOS). If you are using Microsoft Edge like I do, follow the instruction from "[Install, manage, or uninstall apps in Microsoft Edge](https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113)".
+
 ## Known issues
 
 - Code-server does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
