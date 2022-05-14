@@ -1,10 +1,13 @@
 ---
 title: Behler–Michele Parrinell symmetry functions
+date: 2022-05-14
 ---
 
 ## Formulation
 
 Behler & Parrinello (2007):
+
+The cutoff function $f_\mathrm{c}$ is given by
 
 $$
 f_\mathrm{c}(R_{ij}) = \left\{
@@ -15,6 +18,19 @@ f_\mathrm{c}(R_{ij}) = \left\{
 \right.
 $$
 
+The radial term $G^1_i$ is given by
+
+$$
+G^1_i = \sum_{j~(j\neq i)} e^{-\eta \, (R_{ij} - R_s)^2} f_\mathrm{c}(R_{ij})
+$$
+
+The angular term $G^2_i$ is given by
+
+$$
+G^2_i = \sum_{j,\,k~(j,\,k\neq i)} (1 + \lambda \cos \theta_{ijk})^\xi \cdot e^{-\eta \, (R_{ij}^2 + R_{ik}^2 + R_{jk}^2)^2} f_\mathrm{c}(R_{ij}) \, f_\mathrm{c}(R_{ik}) \, f_\mathrm{c}(R_{jk})
+$$
+
+where $\cos \theta_{ijk} = \frac{\mathbf{R}_{ij}\cdot \mathbf{R}_{ij}}{R_{ij} R_{ij}}$.
 
 ## Applications
 
