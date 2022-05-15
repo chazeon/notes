@@ -53,3 +53,35 @@ Here is how to mimic bash and zsh’s tab autocompletion behavior.
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 ```
 
+## OpenSSH Server
+
+Install the OpenSSH server by enable it in [Windows Settings's Optional Features](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-windows-settings), then start and enable the service.
+
+### Set Powershell as the login shell
+
+According to [OpenSSH Server configuration for Windows](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_server_configuration):
+
+```powershell
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```
+
+### Public-private key authorization
+
+See [Setting up OpenSSH for Windows using public key authentication - Stack Overflow](https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication).
+
+## Package manager & coreutils
+
+For CLI tools, use [Scoop](https://scoop.sh/) (compared to [Chocolatey](https://chocolatey.org/), aka `choco`, Scoop is more focused on CLI tools).
+
+Install `scoop` via the following command:
+
+```powershell
+Invoke-WebRequest get.scoop.sh | Invoke-Expression
+```
+
+Then install the coreutils, vim, etc.:
+
+```powershell
+scoop install coreutils vim # ...
+```
+
