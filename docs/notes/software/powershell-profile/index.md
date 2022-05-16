@@ -55,7 +55,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
 ## OpenSSH Server
 
-Install the OpenSSH server by enable it in [Windows Settings's Optional Features](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-windows-settings), then start and enable the service.
+Install the OpenSSH server by enable it in [Windows Settings's Optional Features](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-windows-settings), then start the "OpenSSH Server" (`sshd`) service and set its startup type to "Automatic".
 
 ### Set Powershell as the login shell
 
@@ -67,7 +67,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Wi
 
 ### Public-private key authorization
 
-See [Setting up OpenSSH for Windows using public key authentication - Stack Overflow](https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication).
+See [Setting up OpenSSH for Windows using public key authentication - Stack Overflow](https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication). The caveats are:
+
+- The full `sshd` configuration file is located at `C:\ProgramData\ssh\sshd_config`.
+- All the `authorized_keys` (for user, `.ssh/authorized_keys`, for Administratror group, `__PROGRAMDATA__/ssh/administrators_authorized_keys` needs to have proper permission setting, i.e., no permission inheritance, only the relevant user and `SYSTEM` user have access to it.
+- You need to restart the `sshd` service.
 
 ## Package manager & coreutils
 
