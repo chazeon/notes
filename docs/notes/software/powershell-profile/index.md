@@ -70,8 +70,8 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Wi
 See [Setting up OpenSSH for Windows using public key authentication - Stack Overflow](https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication). The caveats are:
 
 - The full `sshd` configuration file is located at `C:\ProgramData\ssh\sshd_config`.
-- All the `authorized_keys` (for user, `.ssh/authorized_keys`, for Administratror group, `__PROGRAMDATA__/ssh/administrators_authorized_keys` needs to have proper permission setting, i.e., no permission inheritance, only the relevant user and `SYSTEM` user have access to it.
-- You need to restart the `sshd` service.
+- All the `authorized_keys` files needs to have proper permission setting, i.e., no permission inheritance, only the relevant user and `SYSTEM` user have access to it. For users, it is the `.ssh/authorized_keys`, for the Administratror group, it is the `__PROGRAMDATA__/ssh/administrators_authorized_keys` file, these are defined in the `sshd_config`.
+- You need to restart the `sshd` service to apply the changes in `sshd_config`.
 
 ## Package manager & coreutils
 
