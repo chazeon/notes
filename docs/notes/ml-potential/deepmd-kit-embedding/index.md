@@ -64,7 +64,7 @@ The superscript enclosed in parenthesis denote the variant of the descriptor, in
 | ------------------------------------------------------------ | ----------------------- | ----------------------- |
 | Two-body embedding with radial distance between neighbouring atoms | $\mathcal{G}^{(2,r)}_i$ | $\mathcal{D}^{(2,r)}_i$ |
 | Two-body embedding with coordinates of the neighbour atoms   | $\mathcal{G}^{(2,a)}_i$ | $\mathcal{D}^{(2,a)}_i$ |
-| Two-body embedding with the angle between neighbour atoms in the embedding term | $\mathcal{G}^{(3)}_i$   | $\mathcal{D}^{(3)}_i$   |
+| Three-body embedding with the angle between neighbour atoms in the embedding term | $\mathcal{G}^{(3)}_i$   | $\mathcal{D}^{(3)}_i$   |
 
 In the DeePMD-kit implementation, they are named `se_e2_r`, `se_e2_a`, and `se_e3`, respectively. The accuracy and resolution between the three descriptor variants are $\mathcal{D}_i^{(3)} > \mathcal{D}_i^{(2,a)} > \mathcal{D}_i^{(2,r)}$ (Wen et al., 2022).
 
