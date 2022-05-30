@@ -9,3 +9,6 @@ Here are some tips I get from my past experience with VASP. I don't know where t
   > You have a (more or less) 'large supercell' and for larger cells it might be more efficient to use real-space projection operators. Therefore, try `LREAL= Auto` in the INCAR file. Mind: For very accurate calculation, you might also keep the reciprocal projection scheme (i.e. LREAL=.FALSE.). 
 
 2. `POTCAR` is matched to `POSCAR` by ordering, not by atom name. So be careful with the ordering of atoms.
+3. Disabling `WAVECAR`, `CHGCAR`, and `CHG` output to save disk space by setting the following variables:
+   - [`LWAVE = .FALSE.`](https://www.vasp.at/wiki/index.php/LWAVE)
+   - [`LCHARG = .FALSE.`](https://www.vasp.at/wiki/index.php/LCHARG)
