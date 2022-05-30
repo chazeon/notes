@@ -2,17 +2,19 @@
 title: OSZICAR
 ---
 
-## Variable explaination
+## Variables
 
-| Variable | Explaination                                |
-| -------- | ------------------------------------------- |
-| `T`      | current temperature                         |
-| `E`      | total free energy                           |
-| `F`      |                                             |
-| `E0`     |                                             |
-| `EK`     | the kinetic energy                          |
-| `SP`     | the potential energy of the Nosé thermostat |
-| `SK`     | the corresponding kinetic energy            |
+| OSZICAR | OUTCAR     | Explanation    | Details                                     |
+| ------- | ---------- | -------------- | ------------------------------------------- |
+| `T`     |            | temperature    | current temperature                         |
+| `E`     | `ETOTAL`   | total energy   |                                             |
+| `F`     |            |                | total free energy                           |
+| `E0`    |            |                | the energy for $\sigma \to 0$               |
+| `EK`    | `EKIN`     | kinetic energy |                                             |
+| `SP`    | `EPS`      | nose potential | the potential energy of the Nosé thermostat |
+| `SK`    | `ES`       | nose kinetic   | the corresponding kinetic energy            |
+|         | `EKIN_LAT` | kin. Lattice   |                                             |
+|         | `TOTEN`    | ion-electron   |                                             |
 
 ## Parsing
 
