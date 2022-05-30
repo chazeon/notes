@@ -1,5 +1,5 @@
 ---
-title: Machine learning potentials
+title: Molecular dynamics
 list_children: true
 
 ---
