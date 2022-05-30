@@ -36,6 +36,7 @@ In LAMMPS, the Born matrix is calculated using the [`compute born/matrix` comman
 
 - Clavier, G., Desbiens, N., Bourasseau, E., Lachet, V., Brusselle-Dupend, N., & Rousseau, B. (2017). Computation of elastic constants of solids using molecular simulation: Comparison of constant volume and constant pressure ensemble methods. *Molecular Simulation*, *43*(17), 1413–1422. https://doi.org/10.1080/08927022.2017.1313418
 - Krief, M., & Ashkenazy, Y. (2021). Calculation of elastic constants of embedded-atom-model potentials in the N V T ensemble. *Physical Review E*, *103*(6), 063307. https://doi.org/10.1103/PhysRevE.103.063307
+- Lutsko, J. F. (1989). Generalized expressions for the calculation of elastic constants by computer simulation. *Journal of Applied Physics*, *65*(8), 2991–2997. https://doi.org/10.1063/1.342716
 - Zhen, Y., & Chu, C. (2012). A deformation–fluctuation hybrid method for fast evaluation of elastic constants with many-body potentials. *Computer Physics Communications*, *183*(2), 261–265. https://doi.org/10.1016/j.cpc.2011.09.006
 - [8.3.4. Calculate elastic constants — LAMMPS documentation](https://docs.lammps.org/Howto_elastic.html)
 - [lammps/examples/ELASTIC_T/BORN_MATRIX/Silicon at develop · lammps/lammps (github.com)](https://github.com/lammps/lammps/tree/develop/examples/ELASTIC_T/BORN_MATRIX/Silicon)
