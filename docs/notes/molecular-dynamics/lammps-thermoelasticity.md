@@ -2,7 +2,7 @@
 title: Calculating thermoelasticity with LAMMPS
 ---
 
-According to [LAMMPS's documentation](https://docs.lammps.org/Howto_elastic.html), there are three methods to compute thermoelasticity
+According to [LAMMPS's documentation](https://docs.lammps.org/Howto_elastic.html), there are three ways to compute the thermoelastic tensor in general:
 
 1. The Born-matrix method
 2. The stress-strain method
@@ -10,7 +10,7 @@ According to [LAMMPS's documentation](https://docs.lammps.org/Howto_elastic.html
 
 ## The Born-matrix method
 
-The elastic stiffness tensor $C_{\alpha\beta\mu\nu}$ is related to the Born-Matrix tensor $C^\mathrm{B}_{\alpha\beta\mu\nu}$ by (Clavier et al., 2017; Krief & Ashkenazy, 2021)
+The elastic stiffness tensor $C_{\alpha\beta\mu\nu}$ is related to the Born matrix tensor $C^\mathrm{B}_{\alpha\beta\mu\nu}$ by (Clavier et al., 2017; Krief & Ashkenazy, 2021)
 
 $$
 C_{\alpha \beta \mu \nu}= \left\langle C_{\alpha \beta \mu \nu}^{\mathrm{B}}\right\rangle - \frac{V}{k_{\mathrm{B}} T}\left[\left\langle\sigma_{\alpha \beta}^{\mathrm{B}} \sigma_{\mu \nu}^{\mathrm{B}}\right\rangle-\left\langle\sigma_{\alpha \beta}^{\mathrm{B}}\right\rangle\left\langle\sigma_{\mu \nu}^{\mathrm{B}}\right\rangle\right] + \frac{N k_{\mathrm{B}} T}{V}\left(\delta_{\alpha \mu} \delta_{\beta \nu}+\delta_{\alpha \nu} \delta_{\beta \mu}\right) ,
@@ -26,7 +26,7 @@ $$
 C^\mathrm{B}_{\alpha\beta\gamma\mu} = \frac{1}{V}\frac{\partial^2 U}{\partial\epsilon_{\alpha\beta} \partial\epsilon_{\gamma\mu}} .
 $$
 
-In LAMMPS, the Born Matrix is calculated using the [`compute born/matrix` command](https://docs.lammps.org/compute_born_matrix.html).
+In LAMMPS, the Born matrix is calculated using the [`compute born/matrix` command](https://docs.lammps.org/compute_born_matrix.html).
 
 
 
