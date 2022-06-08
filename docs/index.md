@@ -11,13 +11,17 @@ I got my bachelor degree from [Nanjing University](http://www.nju.edu.cn/) (2013
 
 ## Research Focus
 
-My research interests lie broadly around the intersection of physics and computer science. My current research focuses on investigating physical properties of Earth-forming materials under finite pressure and temperature with *ab initio* method.
+My research interests lie broadly around the intersection of physics and computer science. My current research focuses on investigating physical properties of Earth-forming materials under finite pressure and temperature with *ab initio* calculation and  deep-learning potential molecular dynamics.
 
 ###  Hydrogen-bond disordering in δ-AlOOH
 
 δ-AlOOH is a high-pressure mineral with a wide stability field. This study investigate the effect of pressure on the hydrogen-bond disorder in δ-AlOOH. Our study suggests the disorder and tunneling of those hydrogen bonds are connected with observed anormalies in earlier experimental and computational studies.
 
-- C. Luo, K. Umemoto, and R. M. Wentzcovitch, [*Ab Initio Investigation of H-Bond Disordering in δ-AlOOH*](https://arxiv.org/abs/2112.11369), (2021). [accepted by *Physical Review Research*] [[preprint](https://arxiv.org/abs/2112.11369), [poster1](files/agu19-alooh.pdf), [poster2](files/esw21-alooh.pdf)]
+- C. Luo, K. Umemoto, and R. M. Wentzcovitch, [*Ab Initio Investigation of H-Bond Disordering in δ-AlOOH*](https://arxiv.org/abs/2112.11369), (2022). [accepted by *Physical Review Research*] [[preprint](https://arxiv.org/abs/2112.11369), [poster1](files/agu19-alooh.pdf), [poster2](files/esw21-alooh.pdf)]
+
+###  Molecular-dynamics simulations of hydrous phases based on deep-learning potential
+
+Deep-learning potentials enable us to perform large-scale molecular dynamics on GPU-accelerated machines with *ab initio* acuracy. Using these advanced technique, we study various properties that are unique to these hydrous phases (ongoing).
 
 ### Thermoelasticity
 
@@ -35,7 +39,7 @@ This study investigates the change in second-order elastic constants under induc
 
 Serpentine is the most abundant water carrier in the Earth’s subducted slab. Lizardite, is a low-temperature variant of serpentine. The large anisotropy in lizardite, as shown in our study, could account for the observed SKS splitting in the trench.
 
-- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, [*Elasticity of Lizardite at High Pressure and Temperature: Implications for the Water Content in Subduction Zones*](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/934164), in *AGU Fall Meeting 2021* (2021). [poster]
+- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *Elastic anisotropy of lizardite at subduction zone conditions*, (2022). [[poster](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/934164), submitted]
 
 ## Other work
 
