@@ -17,7 +17,7 @@ My research interests lie broadly around the intersection of physics and compute
 
 δ-AlOOH is a high-pressure mineral with a wide stability field. This study investigate the effect of pressure on the hydrogen-bond disorder in δ-AlOOH. Our study suggests the disorder and tunneling of those hydrogen bonds are connected with observed anormalies in earlier experimental and computational studies.
 
-- C. Luo, K. Umemoto, and R. M. Wentzcovitch, [*Ab Initio Investigation of H-Bond Disordering in δ-AlOOH*](https://doi.org/10.1103/PhysRevResearch.4.023223), Phys. Rev. Research 4, 023223 (2022). [[preprint](https://arxiv.org/abs/2112.11369), [poster1](files/agu19-alooh.pdf), [poster2](files/esw21-alooh.pdf)]
+- C. Luo, K. Umemoto, and R. M. Wentzcovitch, [*Ab Initio Investigation of H-Bond Disordering in δ-AlOOH*](https://doi.org/10.1103/PhysRevResearch.4.023223), Phys. Rev. Research 4, 023223 (2022). [[preprint](https://arxiv.org/abs/2112.11369)]
 
 ###  Molecular-dynamics simulations of hydrous phases based on deep-learning potential
 
