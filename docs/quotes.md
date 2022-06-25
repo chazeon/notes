@@ -25,3 +25,7 @@ title: Quotes
 [ADAM PENDLETON](https://www.moma.org/magazine/articles/635)
 
 > History is an endless variation, a machine upon which we can project ourselves and our ideas. That is to say it is our present moment.
+
+[LOUISE BOURGEOIS](https://gothamtogo.com/the-comprehensive-exhibition-louise-bourgeois-paintings-opens-at-the-met/)
+
+> Even though I am French, I cannot think of one of these pictures being painted in France. Every one of them is American, from New York. I love this city, its clear-cut look, its sky, its buildings, and its **scientific, cruel, romantic** quality.
