@@ -1,5 +1,5 @@
 ---
-title: Least square fitting
+title: Least-square fitting
 ---
 
 We want to find the best $x$ that minimizes the error $||Ax-b||^2$.
@@ -10,4 +10,4 @@ $$ ||A \hat x - b||^2 = ||A \hat x - (b-e)||^2 + ||e||^2. $$
 
 In Python, least square fitting is done with `numpy.linalg.lstsq`, or `scipy.linalg.lstsq`.
 
-Polynomial fitting (with `numpy.polyfit`) is a special case for least square fitting, where $A$ is a Vandermonde matrix (`numpy.vander`).
+Polynomial fitting (with `numpy.polyfit`) is a special case for least-square fitting, where $A$ is a Vandermonde matrix (`numpy.vander`).
