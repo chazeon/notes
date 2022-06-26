@@ -1,8 +1,8 @@
 ---
-title: Christoffel’s Equation and Anisotropy
+title: Christoffel’s equation and anisotropy
 ---
 
-## Christoffel’s Equation
+## Christoffel’s equation
 
 Given a elastic coefficient matrix $C_{ijkl}$ ($i,j,k,l = 1\text{ to }3$), the velocity $V_P, V_{S1}, V_{S2}$  ($V_P > V_{S1} > V_{S2}$) along the propagation direction $\hat n = (n_1, n_2, n_3)$ is given by the solution of the Christoffer’s equation,
 
