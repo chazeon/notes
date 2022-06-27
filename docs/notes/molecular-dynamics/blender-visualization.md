@@ -2,11 +2,11 @@
 title: Blender MD Visualization
 ---
 
-Blender open up excellent opportunity for MD visualization by offering latest Python interpreter out-of-box. However, large number of atoms and large number of MD time steps making adding atoms and trajectories misearble. However, there are specific way of programming that allows you to achieve much improved performance.
+Blender opens up excellent opportunities for MD visualization by offering latest Python interpreter out-of-box. However, large number of atoms and large number of MD time steps make adding atoms and trajectories difficult. However, there are specific way of programming that allows you to achieve much improved performance.
 
 ### Large number of atoms
 
-Create object using copy instead of `bpy.ops.mesh.primitive_xxx_add`.
+Creating objects using copy instead of `bpy.ops.mesh.primitive_xxx_add`.
 
 ```python
 bpy.ops.mesh.primitive_uv_sphere_add(radius=.04)
@@ -40,7 +40,9 @@ for k in range(3):
   ])            
 ```
 
+### Memory usage
 
+After addressing the two issues above, the final limiting factor would be memory. Get prepared, 8192 atoms uses ~35 GB memory.
 
 ## References
 
