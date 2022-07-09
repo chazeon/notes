@@ -36,5 +36,14 @@ Many morden browsers allows you to install a webpage as an app. This gives you t
 
 ## Known issues
 
-- Code-server does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
+- Coder's `code-server` does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
 
+## Microsoft's `code-server`
+
+Microsoft has recently release [their own version of the `code-server`](https://code.visualstudio.com/docs/remote/vscode-server). What's great is that it works on Windows, which Coder's version does not support. After installation, it can be started from the following command:
+
+```
+code-server serve-local -p xxxx --without-connection-token
+```
+
+But remember you will need to agree to ToS the first time you start it.
