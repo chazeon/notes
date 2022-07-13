@@ -34,16 +34,18 @@ Now the code-server should be up and running on the HPC and avaliable from your 
 
 Many morden browsers allows you to install a webpage as an app. This gives you the benefit of saving the screen real estate of the tabbar and location bar, and additionally add an icon in your dock (on MacOS). If you are using Microsoft Edge like I do, follow the instruction from "[Install, manage, or uninstall apps in Microsoft Edge](https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113)".
 
-## Known issues
-
-- Coder's `code-server` does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
-
 ## Microsoft's `code-server`
 
 Microsoft has recently release [their own version of the `code-server`](https://code.visualstudio.com/docs/remote/vscode-server). What's great is that it works on Windows, which Coder's version does not support. After installation, it can be started from the following command:
 
-```
-code-server serve-local -p xxxx --without-connection-token
+```bash
+code-server --accept-server-license-terms \
+	serve-local --without-connection-token -p xxxx 
 ```
 
-But remember you will need to agree to ToS the first time you start it.
+Due to slight bahaviorial differences, I prefer Coder's version for personal use.
+
+## Known issues
+
+- Coder's `code-server` does not share [VSCode's Marketplace](https://coder.com/docs/code-server/latest/FAQ#why-cant-code-server-use-microsofts-extension-marketplace) officially. Although you could bring your own VSIX and manually install them.
+
