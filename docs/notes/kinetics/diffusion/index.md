@@ -6,8 +6,8 @@ title: Diffusion
 
 ### Fick’s Law
 
-- Diffusion flux $J = m / (tS)$ (unit: atoms cm-2 s-1))
-  - Mass diffusivity, or diffusion coefficient $D$ (unit: cm2 s-1)
+- Diffusion flux $J = m / (tS)$ (unit: atoms cm<sup>-2</sup> s<sup>-1</sup>)
+  - Mass diffusivity, or diffusion coefficient $D$ (unit: cm<sup>2</sup> s<sup>-1</sup>)
 
 #### First law
 
