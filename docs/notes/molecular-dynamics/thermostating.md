@@ -1,6 +1,12 @@
 ---
 title: Thermostating in VASP and LAMMPS
+date: 2022-05-22
 ---
+
+For Nose-Hoover thermostate with NVT simulation:
+
+- In VASP use `fix nvt`.
+- In LAMMPS set `MDALGO`, `ISIF`, and `SMASS`.
 
 ## References
 
