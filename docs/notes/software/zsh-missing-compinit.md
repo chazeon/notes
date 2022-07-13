@@ -2,13 +2,13 @@
 title: Fix Zsh's missing compinit
 ---
 
-On HPCs (e.g., TACC Stampede, Purdue Anvil), the prompt is usually broken, and you are notified for the missing `compinit`. For example,
+On HPCs (e.g., TACC's Stampede2, Purdue's Anvil), the prompt is usually broken, and you are notified of the missing `compinit`. For example,
 
 ```
 /home/user/.oh-my-zsh/oh-my-zsh.sh:124: compinit: function definition file not found
 ```
 
-This is likely because Zsh's function lookup path `fpath`, [collides a predefined `FPATH` in `Lmod`](https://github.com/TACC/Lmod/issues/555).
+This is likely because Zsh's function lookup path `fpath`, [collides with a predefined `FPATH` in `Lmod`](https://github.com/TACC/Lmod/issues/555).
 
 This can be fixed by manually setting the `fpath` in `.zshrc`. For example:
 
