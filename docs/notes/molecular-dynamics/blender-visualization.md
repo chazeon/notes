@@ -42,7 +42,7 @@ for k in range(3):
 
 ### Memory usage
 
-After addressing the two issues above, the final limiting factor would be memory. Get prepared, 8192 atoms uses ~35 GB memory.
+After addressing the two issues above, the final limiting factor would be memory. Get prepared, 8192 atoms consume ~35 GB memory.
 
 ## References
 
