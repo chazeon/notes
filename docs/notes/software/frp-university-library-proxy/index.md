@@ -70,3 +70,7 @@ Your local computer can now access the HTTP proxy with the following configurati
 - Password: `xxx-xxxxx`
 
 Although you can set it up as a system proxy, you might not want to proxy every website through it. To proxy only the specific publisher websites, I recommend [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) as a browser plugin, [Surge](https://nssurge.com/) as a macOS/iOS/iPadOS app, or any proxy client you like.
+
+## Alternatives
+
+Right now, I am leaning more towards [Tailscale](https://tailscale.com/)’s "[Exit Nodes](https://tailscale.com/kb/1103/exit-nodes/)" functionality. It route all the traffic through on Tailscale's VPN network towards your exit node. There is nothing to lose if you are relying on that service already. It has more reliability, but less flexiblity (no per-website settings).
