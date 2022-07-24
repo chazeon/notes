@@ -9,7 +9,7 @@ $$
 \tilde{D}_{\kappa \alpha, \kappa^{\prime} \beta}^{\mathrm{NA}}(\boldsymbol{q})=\frac{4 \pi}{\Omega \sqrt{M_{\kappa} M_{\kappa^{\prime}}}} \frac{\left(\sum_{\gamma} q_{\gamma} Z_{\kappa, \gamma \alpha}^{*}\right)\left(\sum_{\gamma^{\prime}} q_{\gamma^{\prime}} Z_{\kappa^{\prime}, \gamma^{\prime} \beta}^{*}\right)}{\sum_{\alpha \beta} q_{\alpha} \epsilon_{\alpha \beta}^{\infty} q_{\beta}}
 $$
 
-In phonopy, this is achieved by performing [a seperate VASP run](https://phonopy.github.io/phonopy/vasp.html#non-analytical-term-correction-optional) to calculate the *Born effective charge* ($Z^*$) and *dielectric constant*, then use [`phonopy-vasp-born`](https://phonopy.github.io/phonopy/auxiliary-tools.html#phonopy-vasp-born) to post-process.
+In phonopy, this is achieved by performing [a seperate VASP run](https://phonopy.github.io/phonopy/vasp.html#non-analytical-term-correction-optional) to calculate the *Born effective charge* ($Z^*$) and *dielectric constant* ($\epsilon^\infty$), then use [`phonopy-vasp-born`](https://phonopy.github.io/phonopy/auxiliary-tools.html#phonopy-vasp-born) to post-process.
 
 ## References
 
