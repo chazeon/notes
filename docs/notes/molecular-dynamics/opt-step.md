@@ -15,3 +15,4 @@ opt step  =   0.27850  (harmonic =   0.27850) maximal distance =0.00000028
 ## References
 
 - [IBRION - Vaspwiki](https://www.vasp.at/wiki/index.php/IBRION)
+- [POTIM - Vaspwiki](https://www.vasp.at/wiki/index.php/POTIM)
