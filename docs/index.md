@@ -39,7 +39,7 @@ This study investigates the change in second-order elastic constants under induc
 
 Serpentine is the most abundant water carrier in the Earth’s subducted slab. Lizardite, is a low-temperature variant of serpentine. The large anisotropy in lizardite, as shown in our study, could account for the observed SKS splitting in the trench.
 
-- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *Elastic anisotropy of lizardite at subduction zone conditions*, (2022). [[poster](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/934164), submitted]
+- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *[Elastic anisotropy of lizardite at subduction zone conditions](https://doi.org/10.1029/2022GL099712)*, Geophysical Research Letters (2022)
 
 ## Other work
 
