@@ -12,3 +12,4 @@ title: XSEDE Resources List
 
 - For a list of login names see [XSEDE User Portal | Accounts](https://portal.xsede.org/group/xup/accounts).
 - Using SSH Public-Private Key Pairs on PSC Computers needs to be manually [submitted and verified](https://www.psc.edu/types-of-ssh-authentication/).
+- Expanse: to avoid `numpy` from conda getting stuck on login node, use `export OMP_NUM_THREADS=1`. 
