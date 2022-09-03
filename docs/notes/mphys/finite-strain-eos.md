@@ -6,7 +6,7 @@ title: Finite strain equation of states
 
 ### Explicit expression for Birch-Murnaghan equation of states
 
-The explicit expressions for third-order Birch-Murnaghan equation of states are
+The explicit expressions for third-order Birch-Murnaghan (BM3) equation of states (EoS) are
 
 $$ E(V)=E^{0}+\tfrac{9}{2} V^{0} \kappa^{0} f^{2}\left[1+f\left(\kappa^{\prime 0}-4\right)\right] $$
 
@@ -24,7 +24,7 @@ $$ \frac{2f + 1}{2f'+1} = \frac{(V_0/V)^{2/3}}{(V_\mathrm{ref}/V)^{2/3}} = \left
 
 So we have
 
-$$ f = \left[(2f'+1)\left(\frac{V_0}{V_\mathrm{ref}}\right)^{2/3} - 1\right] = pf' + q $$
+$$ f = (2f'+1)\left(\frac{V_0}{V_\mathrm{ref}}\right)^{2/3} - 1 = pf' + q $$
 
 Since $E(V) = a f^3 + bf^2 + d$, we can fit with $f'$
 
@@ -45,6 +45,19 @@ $$ \frac{\partial f'}{\partial V}  =  \frac{\partial}{\partial V} \left[\left(\f
 But the expression for $PV$ is a 3rd-order polynomial vs. $f'$,
 
 $$ PV = \tfrac{2}{3} (2f' + 1) (3af'^2 + 2bf' + c) \,. $$
+
+### Gibbs free energy or enthalpy
+
+Usually, these equation of states are for internal energy ($U$), Helmholtz free energy ($F$) as a function of volume $V$. It is also possible to think about the form of enthalpy ($H$), Gibbs free energy ($G$) as a function of strain.
+
+Because
+
+$$\begin{split}
+G &= F + PV \,,\\
+H &= U + PV \,,
+\end{split}$$
+
+assuming $T = 0$, from the above statement, $PV$ is a 3rd-order polynomial of $f'$, it is obvious that $G$ and $H$ will be 3rd order polynomials of $f'$ too.
 
 ## References
 
