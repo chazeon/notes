@@ -32,17 +32,21 @@ The uppercase subscripts $\square_{IJKL}$ denote quantities in referential coord
 
 ### Three definitions of stress
 
-- Cauchy stress $\mathbf{T}^\mathrm{E}$
+- Lagrangian description of the Cauchy stress $\mathbf{T}^\mathrm{L}$
 
-  $$ \mathrm{d}\mathbf{f}^\mathrm{E} = \hat{\mathbf{n}}^t \mathrm{d}\Sigma^t \, \mathbf{T}^\mathrm{E} \quad \text{ or } \quad \mathrm{d}f_i = n_j \, \mathrm{d}\Sigma \, T^\mathrm{E}_{ji} $$
+  $$\mathrm{d}\mathbf{f}^\mathrm{L} = \hat{\mathbf{n}}^t \mathrm{d}\Sigma^t \, \mathbf{T}^\mathrm{L} \quad \text{ or } \quad \mathrm{d}f^\mathrm{L}_I = n^t_j \, \mathrm{d}\Sigma^t \, T^\mathrm{L}_{jI}$$
+
+- Eulerian description of the Cauchy stress $\mathbf{T}^\mathrm{E}$
+
+  $$ \mathrm{d}\mathbf{f}^\mathrm{E} = \hat{\mathbf{n}}^t \mathrm{d}\Sigma^t \, \mathbf{T}^\mathrm{E} \quad \text{ or } \quad \mathrm{d}f^\mathrm{E}_i = n^t_j \, \mathrm{d}\Sigma^t \, T^\mathrm{E}_{ji} $$
 
 - First Piola-Kirchhoff stress $\mathbf{T}^\mathrm{PK}$
 
-  $$ \mathrm{d}\mathbf{f}^\mathrm{E} = \hat{\mathbf{n}}^0 \mathrm{d}\Sigma^0 \, \mathbf{T}^\mathrm{PK} \quad \text{ or } \quad \mathrm{d}f_i = n^0_J \, \mathrm{d}\Sigma^0 \, T^\mathrm{PK}_{Ji} $$
+  $$ \mathrm{d}\mathbf{f}^\mathrm{E} = \hat{\mathbf{n}}^0 \mathrm{d}\Sigma^0 \, \mathbf{T}^\mathrm{PK} \quad \text{ or } \quad \mathrm{d}f^\mathrm{E}_i = n^0_J \, \mathrm{d}\Sigma^0 \, T^\mathrm{PK}_{Ji} $$
 
 - Second Piola-Kirchhoff stress  $\mathbf{T}^\mathrm{SK}$
 
-  $$ \mathrm{d}\mathbf{f}^\mathrm{L} = \hat{\mathbf{n}}^0 \mathrm{d}\Sigma^0 \, \mathbf{T}^\mathrm{SK} \quad \text{ or } \quad \mathrm{d}f_I = n^0_J \, \mathrm{d}\Sigma^0 \, T^\mathrm{SK}_{JI} $$
+  $$ \mathrm{d}\mathbf{f}^\mathrm{L} = \hat{\mathbf{n}}^0 \mathrm{d}\Sigma^0 \, \mathbf{T}^\mathrm{SK} \quad \text{ or } \quad \mathrm{d}f^\mathrm{L}_I = n^0_J \, \mathrm{d}\Sigma^0 \, T^\mathrm{SK}_{JI} $$
 
 ### Relations between the three definitions of stress
 
@@ -54,7 +58,7 @@ In Birch (1947), Eq. (10) is actually Cauchy stress with this respect, because $
 
 $$T_{rs} = \rho\frac{\partial\phi}{\partial \eta_{pq}} \frac{\partial a_p}{\partial x_r} \frac{\partial a_q}{\partial x_s} \quad \to \quad T_{ij}^\mathrm{L} = J^{-1} \rho_0\frac{\partial\phi}{\partial E_{IJ}} F^I_i F^J_j \quad \text{or} \quad \mathbf{T}^\mathrm{L} = J^{-1} \mathbf{F}\mathbf{T}^\mathrm{SK}\mathbf{F}^\mathrm{T} $$
 
-And Dahlen, F.A., Tromp, J., (1998) usually focuses on $\mathbf{T}^\mathrm{SK}$ and $\rho_0\partial\phi/\partial E_{IJ}$.
+And Dahlen & Tromp (1998) usually focuses on $\mathbf{T}^\mathrm{SK}$ and $\rho_0\partial\phi/\partial E_{IJ}$.
 
 ## Reference
 
