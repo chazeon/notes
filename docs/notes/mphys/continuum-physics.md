@@ -30,7 +30,7 @@ The uppercase subscripts $\square_{IJKL}$ denote quantities in referential coord
 
 ## Stress
 
-### Three definitions of stress
+### Definitions of stress
 
 - Lagrangian description of the Cauchy stress $\mathbf{T}^\mathrm{L}$
 
