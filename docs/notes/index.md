@@ -20,6 +20,9 @@ Based on their topics, you might want to start from one of the following categor
   - [Software](software)
   - [Hardware](hardware)
   - [Home Improvement](home-improvement)
+- Others
+  - [NYC Guide](nyc)
+
 
 There is a [list of recent updates](../updates) and a [tree listing all pages](tree) for your convenience.
 
