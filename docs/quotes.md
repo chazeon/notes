@@ -32,3 +32,7 @@ title: Quotes
 [BRIAN ENO](https://www.goodreads.com/quotes/649039-whatever-you-now-find-weird-ugly-uncomfortable-and-nasty-about)
 
 > Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided.
+
+[CASEY NEISTAT](https://www.youtube.com/watch?v=4juSAp9jQjA)
+
+> Home was never about a house, a great yard, or good weather. Home is about a place that makes you feel like you. Home is about it it's about finding a location where you just fit.
