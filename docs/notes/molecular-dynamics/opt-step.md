@@ -6,7 +6,7 @@ title: VASP’s optimization timestep
 
 > The choice of a reasonable [`POTIM`](https://www.vasp.at/wiki/index.php/POTIM) is also important and can speed up calculations significantly, we recommend to find an optimal [`POTIM`](https://www.vasp.at/wiki/index.php/POTIM) using `IBRION=2` or performing a few test calculations. 
 
-In ionic relaxation with the conjugate gradient algorithm (`IBRION=2`), the stride of optimization step is output as `opt step` in the `OUTCAR`. For example,
+In ionic relaxation with the conjugate gradient algorithm (`IBRION=2`), the stride of optimization steps are written to `OUTCAR` as `opt step`. For example,
 
 ```
 opt step  =   0.27850  (harmonic =   0.27850) maximal distance =0.00000028
