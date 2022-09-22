@@ -4,6 +4,10 @@ title: Convert LaTeX to docx using Pandoc
 
 ## Challenges and solutions
 
+### Format
+
+Prepare a [reference `.docx` file](https://pandoc.org/MANUAL.html#option--reference-doc) and apply the format using the `--reference-doc` command. This can be done by creating a without reference first; tuning the format; then reproducing the `.docx` file.
+
 ### Citation references
 
 See relevant sections in [Pandoc User’s Guide](https://pandoc.org/MANUAL.html#citation-rendering). Reference styles are available to download from [Zotero Style Repository](https://www.zotero.org/styles). 
@@ -14,7 +18,7 @@ See relevant sections in [Pandoc User’s Guide](https://pandoc.org/MANUAL.html#
 
 ### Cross references
 
-Pandoc does convert the section reference to section numbers but does not correctly convert references for tables and figures.
+Pandoc does convert the section reference to section numbers, but it does not correctly convert references for tables and figures.
 
 Inspired by the [`xr` package](https://mirrors.rit.edu/CTAN/macros/latex/required/tools/xr.pdf), when the `hyperref` package `.aux` file, the definition starts with `\newlabel`. The regex expression for parsing the `\newlabel` lines are:
 
@@ -85,6 +89,8 @@ if __name__ == "__main__":
 ```
 
 ## Final command
+
+To put them together, the final command would be:
 
 ```bash
 pandoc main.tex \
