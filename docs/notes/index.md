@@ -16,6 +16,7 @@ Based on their topics, you might want to start from one of the following categor
   - [Linear algebra](linear-algebra)
   - [Mechanical properties of solid](mech-properties)
   - [Thermodynamics](thermodynamics)
+  - [Statistics](statistics)
 - Technical Workbench
   - [Software](software)
   - [Hardware](hardware)
