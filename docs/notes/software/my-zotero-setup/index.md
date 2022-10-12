@@ -9,15 +9,19 @@ Compared with some web-based solutions (e.g., [ReadCube](https://www.readcube.co
 Here is how I setup my Zotero:
 
 1. **Login with Zotero account and setup self-hosted WebDAV storage.**
-   
+
     My WebDAV server is hosted on a VPS with [Caddy](https://caddyserver.com) as the HTTP server, which has a WebDAV server built-in.
-    
+
     ![Zotero account and WebDAV setup](webdav.png)
-    
-2. **[ZotFile](http://zotfile.com/index.html#changelog) to manage attachment file naming.**
+
+2. **Install [ZotFile](http://zotfile.com/index.html#changelog) to manage attachment file naming.**
 
     My renaming rules set to `{%a} ({%y}) {%t}`.
-    
+
     ![Setting up ZotFile plugin](zotfile.png)
-    
-3. **[BetterBibTeX](https://github.com/retorquere/zotero-better-bibtex) to make exported entry names more readable.**
+
+3. **Install [BetterBibTeX](https://github.com/retorquere/zotero-better-bibtex) to make exported entry names more readable.**
+
+4. **Install [ZoteroQuickLookNG](https://github.com/beaugunderson/ZoteroQuickLookNG) to enable quick preview using spacebar.**
+
+    ZoteroQuickLookNG is a fork of [ZoteroQuickLook](https://github.com/mronkko/ZoteroQuickLook) that supports the latest version of Zotero (Zotero 6.0+).
