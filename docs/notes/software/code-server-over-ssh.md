@@ -36,6 +36,18 @@ Now the code-server should be up and running on the HPC and available from your 
 
 Many modern browsers allow you to install a webpage as an app. This gives you the benefit of saving the screen real estate of the tabbar and location bar, and additionally adds an icon in your dock (on MacOS). If you are using Microsoft Edge as I do, follow the instruction from "[Install, manage, or uninstall apps in Microsoft Edge](https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113)".
 
+### Post installation
+
+1. Change the monospace font
+2. Change the default shell
+3. Install plugins:
+    - Vim
+    - Python
+    - Material Icon Theme
+    - Snakemake
+ 4. Manual install plugins:
+    - LAMMPS
+
 ## Additional Notes
 
 ### Serving `code-server` from Windows
