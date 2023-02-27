@@ -12,17 +12,19 @@ Direct space vectors or directions are denoted by square brackets, e.g., "$[abc]
 
 ### Metric tensors
 
-Metric tensor is a symmetric tensor. The direct space metric tensor is given by
+Metric tensor is the dot product of structure vectors, it is useful for calculating vector dot products. By construction, it is a symmetric 3 x 3 tensor.
+
+The direct space metric tensor is given by
 
 $$
-g = \begin{bmatrix}
+g_{ij} = a^T_{ik} \, a_{kj} = \begin{bmatrix}
 \mathbf{a}\cdot\mathbf{a} & \mathbf{a}\cdot\mathbf{b} & \mathbf{a}\cdot\mathbf{c} \\
 \mathbf{b}\cdot\mathbf{a} & \mathbf{b}\cdot\mathbf{b} & \mathbf{b}\cdot\mathbf{c} \\
 \mathbf{c}\cdot\mathbf{a} & \mathbf{c}\cdot\mathbf{b} & \mathbf{c}\cdot\mathbf{c} \\
 \end{bmatrix}
 $$
 
-
+Similarly, we can have reciprocal space metric tensors for reciprocal lattices.
 
 
 ## Vector operations
