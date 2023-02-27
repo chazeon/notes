@@ -15,8 +15,8 @@ title: Dislocation (1D defects)
 
 - Edge dislocation $\vec b \perp \vec t$
 - Edge dislocation symbol $\perp$
-    - Vertical line: half plane, broken bonds
-    - Horizontal line: slip plane
+  - Vertical line: half plane, broken bonds
+  - Horizontal line: slip plane
 
 #### Screw dislocation
 
@@ -27,13 +27,13 @@ title: Dislocation (1D defects)
 
 ### Slip system
 
-Usually, the highest density plane.
+Usually, the slip system corresponds to the highest-density plane.
 
 ![Slip planes for different crystal systems. via *Science and Design of Engineering Materials* (p.162)](p2.png)
 
 ## Force on dislocation: Peach-Koehler formula
 
-The peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
+The Peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
 
 $$
 \frac{\vec f_\text{d}}{\delta l} = ([\sigma]\,\vec b) \times \hat l
