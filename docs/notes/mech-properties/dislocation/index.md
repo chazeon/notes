@@ -45,6 +45,8 @@ With the Peach-Koehler formula, we are able to obtain the force on a dislocation
 
 ## Strain field, stress field of a dislocation
 
+Here, $G$ denotes the shear modulus of the system and $\nu$ denotes the Poisson ratio.
+
 ###  Results
 
 |             | Screw dislocation                                            | Edge dislocation                                             |
