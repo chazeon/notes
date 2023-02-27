@@ -10,6 +10,21 @@ title: Crystallographic calculations
 
 Direct space vectors or directions are denoted by square brackets, e.g., "$[abc]$"; reciprocal space vectors or planes, are denoted by round brackets, e.g., "$(hkl)$".
 
+### Metric tensors
+
+Metric tensor is a symmetric tensor. The direct space metric tensor is given by
+
+$$
+g = \begin{bmatrix}
+\mathbf{a}\cdot\mathbf{a} & \mathbf{a}\cdot\mathbf{b} & \mathbf{a}\cdot\mathbf{c} \\
+\mathbf{b}\cdot\mathbf{a} & \mathbf{b}\cdot\mathbf{b} & \mathbf{b}\cdot\mathbf{c} \\
+\mathbf{c}\cdot\mathbf{a} & \mathbf{c}\cdot\mathbf{b} & \mathbf{c}\cdot\mathbf{c} \\
+\end{bmatrix}
+$$
+
+
+
+
 ## Vector operations
 
 ### Dot product
