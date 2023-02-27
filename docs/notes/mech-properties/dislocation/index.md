@@ -7,26 +7,33 @@ title: Dislocation (1D defects)
 ### Burgers vector, tangent vector, and slip plane
 
 - Burgers vector $\vec b$
+  - The same dislocation shares the same $\vec b$
 - Unit tangent vector $\vec t$
+- Slip plane $\vec b \times \vec t$
+
+#### Edge dislocation
+
 - Edge dislocation $\vec b \perp \vec t$
 - Edge dislocation symbol $\perp$
     - Vertical line: half plane, broken bonds
     - Horizontal line: slip plane
+
+#### Screw dislocation
+
 - Screw dislocation $\vec b \parallel \vec t$
-- The same dislocation shares the same $\vec b$
-- Slip plane $\vec b \times \vec t$
+
 
 ![Different types of dislocation. via *Science and Design of Engineering Materials* (p.157)](p1.png)
 
 ### Slip system
 
-Usually the highest density plane.
+Usually, the highest density plane.
 
 ![Slip planes for different crystal systems. via *Science and Design of Engineering Materials* (p.162)](p2.png)
 
 ## Force on dislocation: Peach-Koehler formula
 
-Peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
+The peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
 
 $$
 \frac{\vec f_\text{d}}{\delta l} = ([\sigma]\,\vec b) \times \hat l
