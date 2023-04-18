@@ -34,7 +34,9 @@ Bulk / shear moduli from elastic constants ($C_{ij}$) based on polycrystalline a
 
 ## References
 
+- Watt, J. P. (1979). Hashin‐Shtrikman bounds on the effective elastic moduli of polycrystals with orthorhombic symmetry. *Journal of Applied Physics*, *50*(10), 6290–6295. https://doi.org/10.1063/1.325768
 - [MPtutorial2 (berkeley.edu)](https://seismo.berkeley.edu/wiki_cider/images/8/85/MP2.pdf)
 - [Rock physics - SEG Wiki](https://wiki.seg.org/wiki/Rock_physics)
 - [Microsoft Word - CijExercise.docx (colorado.edu)](http://ruby.colorado.edu/~smyth/G5700/CijExercise.pdf)
 - [The cij calculator cij.core.calculator module — Cij documentation (mineralscloud.github.io)](https://mineralscloud.github.io/cij/api/core/calculator.html)
+

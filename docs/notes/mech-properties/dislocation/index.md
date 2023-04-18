@@ -7,26 +7,33 @@ title: Dislocation (1D defects)
 ### Burgers vector, tangent vector, and slip plane
 
 - Burgers vector $\vec b$
+  - The same dislocation shares the same $\vec b$
 - Unit tangent vector $\vec t$
+- Slip plane $\vec b \times \vec t$
+
+#### Edge dislocation
+
 - Edge dislocation $\vec b \perp \vec t$
 - Edge dislocation symbol $\perp$
-    - Vertical line: half plane, broken bonds
-    - Horizontal line: slip plane
+  - Vertical line: half plane, broken bonds
+  - Horizontal line: slip plane
+
+#### Screw dislocation
+
 - Screw dislocation $\vec b \parallel \vec t$
-- The same dislocation shares the same $\vec b$
-- Slip plane $\vec b \times \vec t$
+
 
 ![Different types of dislocation. via *Science and Design of Engineering Materials* (p.157)](p1.png)
 
 ### Slip system
 
-Usually the highest density plane.
+Usually, the slip system corresponds to the highest-density plane.
 
 ![Slip planes for different crystal systems. via *Science and Design of Engineering Materials* (p.162)](p2.png)
 
-## Force on dislocation: Peach-Koehler formula
+## Force on dislocation: Peach-Koehler force
 
-Peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
+The Peach-Koehler formula gives us the force  $\vec f_\text{d}$ on a dislocation line under a stress field $[\sigma]$:
 
 $$
 \frac{\vec f_\text{d}}{\delta l} = (\sigma \cdot \vec b) \times \hat l
@@ -48,12 +55,17 @@ b_y \\
 \end{bmatrix}
 $$
 
+Here, the Burgers vector is $\vec b$ and the direction of the dislocation is given by a unit vector $\hat l$.
+
+This force controls the movement of the dislocation (line). Because of the dot product, the force/movement will always be perpendicular to the dislocation line.
 
 ## Strain, stress, and self-energy of dislocation
 
 With the Peach-Koehler formula, we are able to obtain the force on a dislocation line under a stress field. If we have the stress field of another dislocation, we can calculate the force “between” the two dislocations.
 
 ## Strain field, stress field of a dislocation
+
+Here, $G$ denotes the shear modulus of the system and $\nu$ denotes the Poisson ratio.
 
 ###  Results
 
@@ -75,3 +87,6 @@ Important points:
 
 - [[Point defects (0D defects)]], which has more of a thermodynamic aspect.
 - *Science and Design of Engineering Materials* has a really good chapter on this topic.
+- [Lecture 9 - Forces on Dislocations.pdf (imechanica.org)](https://imechanica.org/files/Lecture%209-%20Forces%20on%20Dislocations.pdf)
+- Lubarda, Vlado A. “Dislocation Burgers Vector and the Peach–Koehler Force: A Review.” *Journal of Materials Research and Technology*, vol. 8, no. 1, Jan. 2019, pp. 1550–65. *ScienceDirect*, https://doi.org/10.1016/j.jmrt.2018.08.014.
+- Peach, M., and J. S. Koehler. “The Forces Exerted on Dislocations and the Stress Fields Produced by Them.” *Physical Review*, vol. 80, no. 3, Nov. 1950, pp. 436–39. *APS*, https://doi.org/10.1103/PhysRev.80.436.
