@@ -29,8 +29,25 @@ Usually the highest density plane.
 Peach-Koehler formula gives us the force on a dislocation line $\vec f_\text{d}$ under a stress field $[\sigma]$.
 
 $$
-\frac{\vec f_\text{d}}{\delta l} = ([\sigma]\,\vec b) \times \hat l
+\frac{\vec f_\text{d}}{\delta l} = (\sigma \cdot \vec b) \times \hat l
 $$
+
+### Properties
+
+The shear stress need to have a component in the $\vec b$ direction; then consider the plane, assume pure shear, then $\sigma \, \vec b$ is perpendicular to $\vec b$ because, assume pure shear with a magnitude of $\tau$, we have
+$$
+\sigma_{ij} \, b_j =  \begin{bmatrix}
+0 & \tau \\
+\tau & 0 \\
+\end{bmatrix} \begin{bmatrix}
+b_x \\
+b_y \\
+\end{bmatrix} = \begin{bmatrix}
+\tau\,b_y \\
+\tau\,b_x \\
+\end{bmatrix}
+$$
+
 
 ## Strain, stress, and self-energy of dislocation
 
