@@ -1,5 +1,5 @@
 ---
-title: Machine Learning potential
+title: Machine learning potentials
 list_children: true
 
 ---
