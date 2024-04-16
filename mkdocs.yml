@@ -7,7 +7,7 @@ site_analytics:
 theme:
   name: null
   custom_dir: blanc
-copyright: 2022, Chenxing
+copyright: 2024, Chenxing
 markdown_extensions: 
   - smarty
   - pymdownx.arithmatex:
