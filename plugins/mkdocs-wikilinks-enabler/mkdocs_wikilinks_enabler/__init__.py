@@ -38,7 +38,6 @@ class WikiLinksEnablerPlugin(plugins.BasePlugin):
                 page = doc.page
                 if page.title is None:
                     page.read_source(self.config)
-
             self.index = dict([ 
                 (doc.page.title.lower(), doc.url) for doc in self.docs
             ])
