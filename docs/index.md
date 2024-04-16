@@ -42,7 +42,7 @@ This study investigates the change in second-order elastic constants under induc
 
 Sheet hydrous minerals are abundant in subduction zones, they exhibit significant anisotropies.
 
-- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *[Elastic anisotropy of lizardite at subduction zone conditions](https://doi.org/10.1029/2022GL099712)*, Geophysical Research Letters (2022)
+- X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *[Elastic anisotropy of lizardite at subduction zone conditions](https://doi.org/10.1029/2022GL099712)*, Geophysical Research Letters (2022) [[preprint](https://arxiv.org/abs/2209.09783)]
 - H. Wang, C. Luo, R. Wentzcovitch, *[Ab initio study on the stability and elasticity of brucite]((https://arxiv.org/abs/2311.17268))*, [submitted] [[preprint](https://arxiv.org/abs/2311.17268)]
 
 ## Other work
