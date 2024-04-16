@@ -54,6 +54,12 @@ iTCO_vendor_support    12288  1 iTCO_wdt
 mei                   200704  7 mei_wdt,mei_hdcp,mei_pxp,mei_me
 ```
 
+And to see which watchdog each `/dev/watchdog[0-1]` corresponds to:
+```
+-> % cat /sys/class/watchdog/watchdog0/identity
+iTCO_wdt
+```
+
 The `iamt_wdt` is known as `mei_wdt` in the [`mei_wdt.c`][1], which ChatGPT failed to note me.
 
 ## Solution
