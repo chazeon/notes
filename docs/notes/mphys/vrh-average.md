@@ -16,7 +16,7 @@ title: Average moduli and velocity of minerals
 
 ## Polycrystalline averages
 
-Bulk / shear moduli from elastic constants ($C_{ij}$) based on polycrystalline averages.
+Bulk / shear moduli from elastic constants ($C_{ij}$) based on polycrystalline averages (Hill, 1952; Watt, 1987).
 
 - $K_\text{V} = [(c_{11}+c_{22}+c_{33}) + 2(c_{12}+c_{23}+c_{31})]/9$
 - $K_\text{R} = [(s_{11}+s_{22}+s_{33})+2(s_{12}+s_{23}+s_{31})]^{-1}$
