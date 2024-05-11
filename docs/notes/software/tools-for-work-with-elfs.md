@@ -2,7 +2,9 @@
 title: Tools for working with ELFs
 ---
 
-Here I collect a list of tools which I found useful for working with ELFs (incl. executables and shared libraries):
+Here I collect a list of tools which I found useful for working with ELFs (incl. executables and shared libraries).
+
+### Dumping symbols
 
 - [**`objdump`**](https://en.wikipedia.org/wiki/Objdump): `objdump --TC xxx.so`
   - The `-C` flag enables demangling.
@@ -15,3 +17,8 @@ Here I collect a list of tools which I found useful for working with ELFs (incl.
   - The `--demangle` flag enables demangling.
 - [**`patchelf`**](https://github.com/NixOS/patchelf):
   - Particularly useful when you bring your own GLIBC and want to link to the updated one.
+
+### Demangling
+
+* **[`llvm-cxxfilt`](https://llvm.org/docs/CommandGuide/llvm-cxxfilt.html)** installed with LLVM
+* **[`c++filt`](https://man7.org/linux/man-pages/man1/c++filt.1.html)** on Linux
