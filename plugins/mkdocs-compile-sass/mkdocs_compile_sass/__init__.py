@@ -27,7 +27,7 @@ class CompileSASSPlugin(plugins.BasePlugin):
 
             if src_path.suffix not in (".scss", ".sass"): continue
 
-            css_path = temp_dir / src_path.parent / src_path.stem
+            css_path = temp_dir / src_path.parent / f"{src_path.stem}"
             css_path.parent.mkdir(parents=True, exist_ok=True)
 
             logger.info(f"Compiling SCSS <{src_path}> -> <{css_path}>")
@@ -38,10 +38,10 @@ class CompileSASSPlugin(plugins.BasePlugin):
 
             file.src_path = str(css_path.relative_to(temp_dir))
             file.abs_src_path = str(css_path)
-            file.dest_path = str(Path(file.dest_path).parent / Path(file.dest_path).stem)
-            file.abs_dest_path = str(Path(file.abs_dest_path).parent / Path(file.abs_dest_path).stem)
+            file.dest_path = str(Path(file.dest_path).parent / Path(file.dest_path).name)
+            file.abs_dest_path = str(Path(file.abs_dest_path).parent / Path(file.abs_dest_path).name)
 
-            file.url = str(Path(file.url).parent / Path(file.url).stem)
+            file.url = str(Path(file.url).parent / Path(file.url).name)
 
         return files
     
