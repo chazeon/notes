@@ -27,10 +27,10 @@ Bulk / shear moduli from elastic constants ($C_{ij}$) based on polycrystalline a
 
 ## Acoustic velocity
 
-- Compressional velocity: $V_\mathrm{P} = \sqrt{(K + \frac{3}{4} G)/ \rho}$
+- Compressional velocity: $V_\mathrm{P} = \sqrt{(K + \frac{4}{3} G)/ \rho}$
 - Shear velocity: $V_\mathrm{S} = \sqrt{G / \rho}$
 - $V_\phi = \sqrt{K / \rho}$
-- $V_\mathrm{P}^2 = V_\mathrm{S}^2 + \frac{3}{4} V_\phi^2$
+- $V_\mathrm{P}^2 = V_\mathrm{S}^2 + \frac{4}{3} V_\phi^2$
 
 ## References
 
