@@ -2,16 +2,17 @@
 title: MVNOs in the US
 ---
 
-MVNO (mobile virtual network operator) are network operators that does not have their own network, but rents major carrier's network capacity. MVNOs usually offeres a slightly lower price than major carriers.
+MVNOs (mobile virtual network operators) do not have their own networks; instead, they rent capacity from major carriers. They usually offer lower prices than the major carriers.
 
 | Operator                                                     | Network                                                  |
 | ------------------------------------------------------------ | -------------------------------------------------------- |
-| [US Mobile](https://usmobile.com/referrals?data=Y29kZT1RTEFYQldXJm5hbWU9Q2hlbnhpbmc=) | Verizon ("Wrap 5G" or "Super LTE"), T-Mobile ("GSM LTE") |
+| [US Mobile](https://usmobile.com/referrals?data=Y29kZT1RTEFYQldXJm5hbWU9Q2hlbnhpbmc=) | Verizon ("Warp 5G"), T-Mobile ("Light Speed"), AT&T ("Dark Star") |
+| [Visible](https://www.visible.com/)                         | Verizon                                                  |
 | [Ting](https://tingmobile.com/)                              | T-Mobile                                                 |
 | Wing Mobile                                                  | T-Mobile, Verizon, AT&T                                  |
 | [Google Fi](https://g.co/fi/r/69W7HD)                        | T-Mobile                                                 |
 
-As of 06/2022, I am currently using US Mobile and Google Fi.
+As of 08/2026, I am currently using Visible.
 
 ## References
 
