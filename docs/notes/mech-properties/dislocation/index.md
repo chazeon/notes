@@ -41,7 +41,8 @@ $$
 
 ### Properties
 
-The shear stress need to have a component in the $\vec b$ direction; then consider the plane, assume pure shear, then $\sigma \, \vec b$ is perpendicular to $\vec b$ because, assume pure shear with a magnitude of $\tau$, we have
+The shear stress needs to have a component in the $\vec b$ direction. For pure shear with magnitude $\tau$, $\sigma \, \vec b$ is perpendicular to $\vec b$:
+
 $$
 \sigma_{ij} \, b_j =  \begin{bmatrix}
 0 & \tau \\
