@@ -49,7 +49,16 @@ $$
 
 #### Cluster assumption
 
-![](Untitled%201.png){.w-25}
+$$
+\begin{aligned}
+E_{n-1} + E_1
+&\underset{k_n^-}{\overset{k_{n-1}^+}{\rightleftharpoons}}
+E_n, \\
+E_n + E_1
+&\underset{k_{n+1}^-}{\overset{k_n^+}{\rightleftharpoons}}
+E_{n+1}.
+\end{aligned}
+$$
 
 ![Distribution of cluster size ($\ln N_n$ vs $n$). via Henry Ehrenreich Frederick Seitz David Turnbull, Solid State Physics vol. 45 (p. 86)](Untitled%202.png)
 
