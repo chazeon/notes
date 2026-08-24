@@ -19,6 +19,8 @@ My research interests lie broadly around the intersection of physics and compute
 
 - C. Luo, K. Umemoto, and R. M. Wentzcovitch, [*Ab Initio Investigation of H-Bond Disordering in δ-AlOOH*](https://doi.org/10.1103/PhysRevResearch.4.023223), Phys. Rev. Research 4, 023223 (2022). [[preprint](https://arxiv.org/abs/2112.11369)]
 - C. Luo, Y. Sun, and R. M. Wentzcovitch, [*Probing the state of hydrogen in δ-AlOOH at mantle conditions with machine learning potential*](https://doi.org/10.1103/PhysRevResearch.6.013292), Phys. Rev. Research 6, 013292 (2024). [[preprint](https://arxiv.org/abs/2309.06712)]
+- C. Luo, Y. Sun, and R. M. Wentzcovitch, [*Elasticity and acoustic velocities of δ-AlOOH at extreme conditions: A methodology assessment*](https://doi.org/10.1103/PhysRevMaterials.8.103601), Phys. Rev. Materials 8, 103601 (2024). [[preprint](https://arxiv.org/abs/2406.13804)]
+- C. Luo, S. Lee, H. Wang, Z. Zhang, and R. M. Wentzcovitch, [*Lattice dynamics and the spectroscopic signatures of H-bond disorder in δ-AlOOH*](https://arxiv.org/abs/2606.14590), arXiv:2606.14590 (2026).
 
 ###  Molecular-dynamics simulations of hydrous phases based on deep-learning potential
 
@@ -43,7 +45,8 @@ This study investigates the change in second-order elastic constants under induc
 Sheet hydrous minerals are abundant in subduction zones, they exhibit significant anisotropies.
 
 - X. Deng, C. Luo, R. Wentzcovitch, G.A. Abers, Z. Wu, *[Elastic anisotropy of lizardite at subduction zone conditions](https://doi.org/10.1029/2022GL099712)*, Geophysical Research Letters (2022) [[preprint](https://arxiv.org/abs/2209.09783)]
-- H. Wang, C. Luo, R. Wentzcovitch, *[Ab initio study on the stability and elasticity of brucite]((https://arxiv.org/abs/2311.17268))*, [submitted] [[preprint](https://arxiv.org/abs/2311.17268)]
+- H. Wang, C. Luo, and R. M. Wentzcovitch, [*Machine learning potential for serpentines*](https://doi.org/10.1029/2024JH000434), Journal of Geophysical Research: Machine Learning and Computation 1, e2024JH000434 (2024).
+- H. Wang, C. Luo, and R. M. Wentzcovitch, [*Ab initio study of the stability and elasticity of brucite*](https://doi.org/10.1103/PhysRevB.109.214103), Phys. Rev. B 109, 214103 (2024). [[preprint](https://arxiv.org/abs/2311.17268)]
 
 ## Other work
 
@@ -52,4 +55,3 @@ Sheet hydrous minerals are abundant in subduction zones, they exhibit significan
 <b class="header">Phase diagram calculator</b> The [`phdg` Python code](https://github.com/MineralsCloud/phdg) computes phase diagram vs. pressure and temperature based on [`qha`](https://github.com/MineralsCloud/qha)’s Gibbs free enengy results.
 
 <b class="header">The `qha` code</b> The [`qha` ](https://github.com/MineralsCloud/qha) Python package employs the quasi-harmonic approximation (QHA) to compute the thermodynamic properties of crystalline materials at finite pressure and temperature.
-
