@@ -1,21 +1,30 @@
-[tool.poetry]
+[project]
 name = "notes"
 version = "0.1.0"
 description = ""
-authors = ["Chenxing Luo"]
+authors = [{ name = "Chenxing Luo" }]
+requires-python = ">=3.10,<4"
+dependencies = [
+    "jinja2-time>=0.2,<0.3",
+    "markdown-captions>=2.1.1,<3",
+    "mdx-truly-sane-lists>=1.2,<2",
+    "mkdocs>=1.2.3,<2",
+    "mkdocs-blogging",
+    "mkdocs-compile-sass",
+    "mkdocs-jinja2-load-extensions",
+    "mkdocs-minify-plugin>=0.5,<0.6",
+    "mkdocs-subpages",
+    "mkdocs-wikilinks-enabler",
+    "pygments>=2.11.2,<3",
+    "pymdown-extensions>=9.2,<10",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-mkdocs = "^1.2.3"
-Pygments = "^2.11.2"
-pymdown-extensions = "^9.2"
-mdx-truly-sane-lists = "^1.2"
-markdown-captions = "^2.1.1"
-mkdocs-minify-plugin = "^0.5.0"
-jinja2-time = "^0.2.0"
+[tool.uv]
+package = false
 
-[tool.poetry.dev-dependencies]
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv.sources]
+mkdocs-blogging = { path = "plugins/mkdocs-blogging", editable = true }
+mkdocs-compile-sass = { path = "plugins/mkdocs-compile-sass", editable = true }
+mkdocs-jinja2-load-extensions = { path = "plugins/mkdocs-jinja2-load-extensions", editable = true }
+mkdocs-subpages = { path = "plugins/mkdocs-subpages", editable = true }
+mkdocs-wikilinks-enabler = { path = "plugins/mkdocs-wikilinks-enabler", editable = true }
