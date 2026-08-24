@@ -18,3 +18,7 @@ This complexity makes it difficult to resolve where the anisotropy is originatin
 ## The melting process
 
 ![](wedge.png)
+
+## References
+
+- Long, M. D., & Silver, P. G. (2008). The subduction zone flow field from seismic anisotropy: A global view. *Science*, *319*(5861), 315–318. [https://doi.org/10.1126/science.1150809](https://doi.org/10.1126/science.1150809)
