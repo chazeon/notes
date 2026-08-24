@@ -16,7 +16,7 @@ dependencies = [
     "mkdocs-subpages",
     "mkdocs-wikilinks-enabler",
     "pygments>=2.11.2,<3",
-    "pymdown-extensions>=9.2,<10",
+    "pymdown-extensions>=11.0.1,<12",
 ]
 
 [tool.uv]
