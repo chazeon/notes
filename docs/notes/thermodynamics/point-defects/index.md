@@ -13,7 +13,7 @@ title: Point defects (0D defects)
 
 ### Frenkel and Schottky defects
 
-Frenkel and Schottky defects maintain change neutrality, these defects are “intrinsic defects”. Examples of “extrinsic defects” include impurities.
+Frenkel and Schottky defects maintain charge neutrality; these defects are “intrinsic defects.” Examples of “extrinsic defects” include impurities.
 
 #### Frenkel defects
 
@@ -38,30 +38,31 @@ $$
 - For elementary crystals (such as metal), usually vacancy and interstitial defects are discussed.
 - For compound crystals (such as ionic crystals), usually Frenkel and Schottky defects are discussed.
 
-### Derivation of the expression of defect concentration
+### Derivation of the expression for defect concentration
 
-The expression of defect concentration are obtained from equilibrium constants $K$, usually:
+The expression for defect concentration is obtained from the equilibrium constant $K$:
 
-- Get $K$
-- $K = \exp -\Delta G / k_BT$.
+- Determine $K$.
+- $K = \exp\left(-\dfrac{\Delta G}{k_B T}\right)$.
 
 ### Defect concentration for different types of defects
 
-- Elementary crystals
-    - Vacancy (dominant): $X_{\mathrm{v}}=e^{\bar S_\mathrm{v}^{\mathrm{xs}} / k} e^{-\bar{H}_\mathrm{v} / k T}$
-    - Interstitial: $X_{\mathrm{D}}=f_{\mathrm{D}}\,e^{\bar S^{\mathrm{xs}} / k} e^{-\bar{H}_{\mathrm{D}} / k T}$
-        - $f_D$: a intrinsic parameter of a crystal, the ratio between # of interstitial sites and # of normal sites
-    - Divacancy: $X_{\mathrm{vv}}=\left(X_{\mathrm{v}}\right)^{2} \mathrm{e}^{\Delta \bar{S}_\text{int} / k} \mathrm{e}^{-\left(\Delta \bar{H}_\text {int} / k T\right)}$
-        - (two vacancies plus interactive energy.)
-- Ionic crystals
-    - Frenkel: $X_{\mathrm{fd}}=\mathrm{e}^{\Delta S_{\mathrm{fd}}^{\circ} / 2 k} \mathrm{e}^{-\left(\Delta H_{\mathrm{fd}}^{\circ} / 2 k T\right)}$
-    - Schottky: $X_{\mathrm{sd}}=\mathrm{e}^{\Delta S_{\mathrm{Sd}}^{\circ \mathrm{xs}} / 2 k} \mathrm{e}^{-\left(\Delta H_{\mathrm{sd}}^{\circ} / 2 k T\right)}$
+#### Elementary crystals
+
+- Vacancy (dominant): $X_{\mathrm{v}}=e^{\bar S_\mathrm{v}^{\mathrm{xs}} / k} e^{-\bar{H}_\mathrm{v} / k T}$
+- Interstitial: $X_{\mathrm{D}}=f_{\mathrm{D}}\,e^{\bar S^{\mathrm{xs}} / k} e^{-\bar{H}_{\mathrm{D}} / k T}$, where $f_D$ is the ratio of interstitial sites to normal sites for a crystal.
+- Divacancy: $X_{\mathrm{vv}}=\left(X_{\mathrm{v}}\right)^{2} \mathrm{e}^{\Delta \bar{S}_\text{int} / k} \mathrm{e}^{-\left(\Delta \bar{H}_\text {int} / k T\right)}$, accounting for two vacancies and their interaction energy.
+
+#### Ionic crystals
+
+- Frenkel: $X_{\mathrm{fd}}=\mathrm{e}^{\Delta S_{\mathrm{fd}}^{\circ} / 2 k} \mathrm{e}^{-\left(\Delta H_{\mathrm{fd}}^{\circ} / 2 k T\right)}$
+- Schottky: $X_{\mathrm{sd}}=\mathrm{e}^{\Delta S_{\mathrm{sd}}^{\circ \mathrm{xs}} / 2 k} \mathrm{e}^{-\left(\Delta H_{\mathrm{sd}}^{\circ} / 2 k T\right)}$
 
 ![Direct Measurement of vacancy concentration. $\Delta L / L$ are obtained from macroscopic measurements of crystal size, $\Delta a / a$ obtained from microscopic measurements (XRD) of atomic distance. Difference indicates vacancy concentration. via Dehoff (p.460)](Untitled%204.png)
 
-![Vacancy concentration as function of T. via Dehoff (p.470)](Untitled%205.png)
+![Vacancy concentration as a function of T, via Dehoff (p.470)](Untitled%205.png)
 
-## Defect and diffusion??
+## Defects and diffusion
 
 See [[Diffusion]]
 
