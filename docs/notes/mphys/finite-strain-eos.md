@@ -34,39 +34,27 @@ So with an arbitrary $V_\mathrm{ref}$, the fitting result is equivalent.
 
 ### Recovering $V_0$, $K_0$, and $K'_0$ from the polynomial coefficients
 
-Suppose the fitted energy is
+Changing $V_\mathrm{ref}$ reshuffles the polynomial coefficients and the strain coordinate while preserving $E(V)$ and the EoS parameters. Recover $V_0$ from the minimum of $E(x)$. Read $K_0$ from the curvature at the minimum and $K'_0$ from how the curvature changes under compression.
 
-$$ E(f')=a{f'}^3+b{f'}^2+cf'+d $$
+Write $x=f'$ and fit
 
-with $f'=\tfrac{1}{2}[(V_\mathrm{ref}/V)^{2/3}-1]$. Define
+$$ E(x)=ax^3+bx^2+cx+d \,,$$
 
-$$ \Delta\equiv\sqrt{b^2-3ac} \,.$$
+with
 
-For $a\ne0$, the strain at the energy minimum is
+$$ V=V_\mathrm{ref}(1+2x)^{-3/2} \,.$$
 
-$$ f'_0=\frac{-b+\Delta}{3a} \,,$$
+Let $x_0$ mark the minimum of $E(x)$. Convert $x_0$ back to volume with
 
-because it satisfies $\partial E/\partial f'=0$ and $\partial^2E/\partial {f'}^2=2\Delta>0$. The fit must also give $1+2f'_0>0$ so that the volume is positive. Define
+$$\boxed{V_0=V_\mathrm{ref}(1+2x_0)^{-3/2}} \,.$$
 
-$$ s_0\equiv1+2f'_0 \,.$$
+Substitute $x_0$ into the coefficient expressions for the moduli
 
-Then the zero-pressure EoS parameters are
+$$ \boxed{K_0=\frac{2(1+2x_0)^2(3ax_0+b)}{9V_0}},
+\qquad
+\boxed{K'_0=4+\frac{a(1+2x_0)}{3ax_0+b}} \,.$$
 
-$$\boxed{V_0=V_\mathrm{ref}s_0^{-3/2}}$$
-
-$$\boxed{K_0=\frac{2\Delta s_0^2}{9V_0}}$$
-
-and
-
-$$\boxed{K'_0=4+\frac{as_0}{\Delta}} \,.$$
-
-Here $K=-V\,\partial P/\partial V$ and $K'_0=(\partial K/\partial P)_{P=0}$. The constant coefficient $d$ only fixes the energy zero and does not affect $V_0$, $K_0$, or $K'_0$.
-
-If $a=0$, use $f'_0=-c/(2b)$, $K_0=2bs_0^2/(9V_0)$, and $K'_0=4$.
-
-As a check, if $V_\mathrm{ref}=V_0$, then $f'_0=0$ and $c=0$, giving
-
-$$ K_0=\frac{2b}{9V_0}, \qquad K'_0=4+\frac{a}{b} \,.$$
+The constant coefficient $d$ sets the energy zero and drops out of $V_0$, $K_0$, and $K'_0$.
 
 ### Analytical derivatives to obtain $P(V)$
 
