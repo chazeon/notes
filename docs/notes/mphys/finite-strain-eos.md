@@ -46,13 +46,13 @@ $$ V=V_\mathrm{ref}(1+2x)^{-3/2} \,.$$
 
 Let $x_0$ mark the minimum of $E(x)$. Convert $x_0$ back to volume with
 
-$$\boxed{V_0=V_\mathrm{ref}(1+2x_0)^{-3/2}} \,.$$
+$$ V_0=V_\mathrm{ref}(1+2x_0)^{-3/2} \,.$$
 
 Substitute $x_0$ into the coefficient expressions for the moduli
 
-$$ \boxed{K_0=\frac{2(1+2x_0)^2(3ax_0+b)}{9V_0}},
+$$ K_0=\frac{2(1+2x_0)^2(3ax_0+b)}{9V_0},
 \qquad
-\boxed{K'_0=4+\frac{a(1+2x_0)}{3ax_0+b}} \,.$$
+K'_0=4+\frac{a(1+2x_0)}{3ax_0+b} \,.$$
 
 The constant coefficient $d$ sets the energy zero and drops out of $V_0$, $K_0$, and $K'_0$.
 
