@@ -11,7 +11,7 @@ I received my PhD from Columbia University in 2024, where I worked with [Profess
 
 ## Research Focus
 
-My research interests lie broadly around the intersection of physics and computer science. My current research focuses on investigating physical properties of Earth-forming materials under finite pressure and temperature with *ab initio* calculation and  deep-learning potential molecular dynamics.
+My research lies at the intersection of mineral physics, computational materials science, and geophysics. I combine *ab initio* calculations, deep-learning molecular dynamics, and thermodynamic modeling to study Earth-forming materials at high pressures and temperatures. I use these mineral-scale insights to understand how compositional and thermal heterogeneity shapes the thermochemical structure of the lower mantle.
 
 ###  Hydrogen-bond disordering in δ-AlOOH
 
