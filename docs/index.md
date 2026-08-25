@@ -5,9 +5,9 @@ title: Welcome!
 
 ## Bio
 
-I am currently a PhD student (2019–) at the [Applied Physics & Applied Mathematics Department](https://www.apam.columbia.edu/) in [Columbia University](https://www.columbia.edu/). I work as a graduate research assistant with [Professor Renata Wentzcovitch](https://www.apam.columbia.edu/faculty/renata-wentzcovitch).
+I am currently a postdoctoral researcher at [Columbia University](https://www.columbia.edu/), following a Hess Postdoctoral Fellowship at [Princeton University](https://www.princeton.edu/) from 2024–2025.
 
-I got my bachelor degree from [Nanjing University](http://www.nju.edu.cn/) (2013–2017), and master degree from Columbia University (2017–2018).
+I received my PhD from Columbia University in 2024, where I worked with [Professor Renata Wentzcovitch](https://www.apam.columbia.edu/faculty/renata-wentzcovitch). Before that, I earned a master's degree from Columbia in 2018 and a bachelor's degree from [Nanjing University](http://www.nju.edu.cn/) in 2017.
 
 ## Research Focus
 
