@@ -27,18 +27,17 @@ My research lies at the intersection of mineral physics, computational materials
 Deep-learning potentials enable large-scale, GPU-accelerated molecular dynamics with *ab initio* accuracy for studying hydrous phases at mantle conditions.
 
 - J. Zeng et al., [DeePMD-Kit v2: A Software Package for Deep Potential Models](https://doi.org/10.1063/5.0155600), The Journal of Chemical Physics (2023). [[preprint](https://arxiv.org/abs/2304.09409)]
+- J. Zeng et al., [DeePMD-kit v3: A Multiple-Backend Framework for Machine Learning Potentials](https://doi.org/10.1021/acs.jctc.5c00340), Journal of Chemical Theory and Computation 21, 4375–4385 (2025). [[preprint](https://arxiv.org/abs/2502.19161)]
+- J. Zeng et al., [dpdata: A Scalable Python Toolkit for Atomistic Machine Learning Data Sets](https://doi.org/10.1021/acs.jcim.5c01767), Journal of Chemical Information and Modeling 65, 11497–11504 (2025).
 
 ### Thermoelasticity
 
-The [`cij` Python package](https://github.com/MineralsCloud/cij) implements the [SAM-*C<sub>ij</sub>* formalism](https://doi.org/10.1103/PhysRevB.83.184115) for high-pressure, high-temperature thermoelastic calculations across crystal systems.
+I develop first-principles, deep-learning, and thermodynamic methods to predict the elastic properties of mantle minerals at extreme pressures and temperatures.
 
 - C. Luo, X. Deng, W. Wang, G. Shukla, Z. Wu, and R. M. Wentzcovitch, [*Cij: A Python Code for Quasiharmonic Thermoelasticity*](https://doi.org/10.1016/j.cpc.2021.108067), Computer Physics Communications (2021). [[preprint](https://arxiv.org/abs/2101.12596)]
-
-### Third-order elastic constants
-
-We extend third-order elasticity to finite pressure, enabling first-principles predictions of strain-induced changes and pressure derivatives in second-order elastic coefficients.
-
 - C. Luo, J. Tromp, and R. Wentzcovitch, [*Ab initio calculations of the third-order elastic coefficients*](https://doi.org/10.1103/PhysRevB.106.214104), Physical Review B (2022). [[preprint](https://arxiv.org/abs/2204.07608)]
+- T. Wan, C. Luo, Y. Sun, and R. M. Wentzcovitch, [*Thermoelastic properties of bridgmanite using deep-potential molecular dynamics*](https://doi.org/10.1103/PhysRevB.109.094101), Phys. Rev. B 109, 094101 (2024). [[preprint](https://arxiv.org/abs/2307.07127)]
+- T. Wan, C. Luo, Z. Zhang, Y. Sun, and R. M. Wentzcovitch, [*Ferroelastic hysteresis, shear modulus softening, and the tetragonal↔cubic transition in davemaoite*](https://doi.org/10.1126/sciadv.aed7601), Science Advances 12, eaed7601 (2026). [[preprint](https://arxiv.org/abs/2505.01529)]
 
 ### Physical properties of sheet-hydrous minerals
 
